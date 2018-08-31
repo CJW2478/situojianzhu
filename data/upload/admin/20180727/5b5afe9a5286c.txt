@@ -1,0 +1,14 @@
+后台：http://wx.51dmn.com/web/index.php?c=site&a=entry&m=ewei_shopv2&do=web&r=plugins
+
+保健品商城定制部分原型：https://pro.modao.cc/app/DwsmniL85km3yhOUEUCLDMdNLuPQ3B2
+
+返利项目前端原型：https://pro.modao.cc/app/Ys9ZBTUOKwhgzKCL9OmbVJNbHAc1nfK
+返利项目后端原型：https://pro.modao.cc/app/OR3tkqTPDFgCKE24ssWWtCwZHYSHDu3
+
+禅道地址：http://192.168.199.3/zentao/user-login.html
+账号：lxt
+密码：Test1234
+
+靓菜商城：http://liangcai.d-intel.com    admin  Test1234
+
+靓菜商城定制部分：https://pro.modao.cc/app/b5dffd09436c56936e2c4aa3d59ad4bd1dba9310

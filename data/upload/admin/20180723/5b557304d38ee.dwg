@@ -1,0 +1,13 @@
+公众号微信号:yhesc66
+微信AppId:wx6a54228ab0b20550
+appSecret:8400e16c38d545903b12b6442455bb4b
+Token令牌:q6qQmdz4ZSdJgjXJF4HV2JD5JVN244qZ
+服务器URL:http://xuechebang.server184.51scmb.com/plugin/weixin/index/notify.html 
+EncodingAESKey:Fq3rbTzd2o9YX9DsR4UhdE0ZBlmLJ76jdhXwWdZMLOi
+
+
+
+
+EzusEZl2Zh5-ZOK0slnLpCiEYGrc5VXJBg4qQG6MKRM 	注册成功提醒 	IT科技 	{{first.DATA}} 注册手机号：{{keyword1.DATA}} 注册时间：{{keyword2.DATA}} {{remark.DATA}} 	恭喜您商户注册成功！ 注册手机号：18698573888 注册时间：2016年7月21日 18:36 请尽快登录商户后台完善信息
+LXPji93dMNMeLV0AbaAeyn1RK-ms7jPbeNo4hVAVxAg 	成为分销商通知 	IT科技 	{{first.DATA}} 昵称：{{keyword1.DATA}} 时间：{{keyword2.DATA}} {{remark.DATA}} 	你好，你已成功成为分销商。 昵称：：王小明 时间：2014年7月21日 18:36 感谢你的使用。 昵称：王小明 时间：：王小明 时间：2014年7月21日 18:36 感谢你的使用。
+lSrLPaohJy10ZYIiJKsT9Wj24V9WSwlihog2EUbZiF4 	等级升级通知 	IT科技 	{{first.DATA}} 用户昵称：{{keyword1.DATA}} 最新等级：{{keyword2.DATA}} 生效时间：{{keyword3.DATA}} {{remark.DATA}} 	恭喜你的等级升级了 用户昵称：巴尔干不倒绒 最新等级：LV5 生效时间：2016-2-22 13:30 请保持你的活跃

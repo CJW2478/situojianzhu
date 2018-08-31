@@ -1,0 +1,106 @@
+<admintpl file="header" />
+</head>
+<body>
+<div class="wrap js-check-wrap">
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="javascript:;">分配员</a></li>
+	</ul>
+	<form class="well form-search">
+	项目：
+	<select id="select">
+		<if condition="count($project_ids) neq 0">
+		<foreach name="project_ids" item="vo">
+			<php>$selected=$principal['id']==$vo['id']?"selected":"";</php>
+			<option value="{$vo.id}" {$selected}>{$vo.project_name}</option>
+		</foreach>
+		<else/>
+		 <option>暂未分配项目</option>
+		</if>
+	</select>
+	</form>
+	<ul class="nav nav-tabs pointUl">
+		<li class="active"><a href="{:U('Distribution/index',array('project_id'=>$principal['id']))}">甲方项目基本信息</a></li>
+		<li><a href="{:U('Distribution/solutions',array('project_id'=>$principal['id']))}">分配方案师<if condition="$sign.solutions gt 0"><span class="pointred">.</span></if></a></li>
+		<li><a href="{:U('Distribution/professional',array('project_id'=>$principal['id']))}">分配各专业人员<if condition="$sign.professional gt 0"><span class="pointred">.</span></if></a></li>
+		<li><a href="{:U('Distribution/work_plan',array('project_id'=>$principal['id']))}">上传施工图所需资料</a>
+		<li><a href="{:U('Distribution/opinion',array('project_id'=>$principal['id']))}">上传施工图审查意见（内部、外部）</a></li>
+	</ul>
+	<form class="form-horizontal">
+		<fieldset>
+			<div class="control-group" style="margin-bottom: 0px;">
+				<label class="control-label">项目名称：</label>
+				<div class="controls" style="margin-top: 5px;">
+					<label>{$principal.project_name}</label>
+				</div>
+			</div>
+			<div class="control-group" style="margin-bottom: 0px;">
+				<label class="control-label">项目编号：</label>
+				<div class="controls" style="margin-top: 5px;">
+					<label>{$principal.project_no}</label>
+				</div>
+			</div>
+			<div class="control-group" style="margin-bottom: 0px;">
+				<label class="control-label" style="margin-left: 55px;">甲方负责人基本信息</label>
+			</div>
+			<table class="table table-hover table-bordered" style="width: 800px;margin-left:90px;">
+				<thead>
+				<tr>
+					<th style="text-align: center;">姓名</th>
+					<th style="text-align: center;">联系方式</th>
+					<th style="text-align: center;">职务</th>
+					<th style="text-align: center;">qq号</th>
+					<th style="text-align: center;">微信号</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td style="text-align: center;">{$principal.principal_name}</td>
+					<td style="text-align: center;">{$principal.mobile}</td>
+					<td style="text-align: center;">{$principal.duty}</td>
+					<td style="text-align: center;">{$principal.qq}</td>
+					<td style="text-align: center;">{$principal.wx}</td>
+				</tr>
+				</tbody>
+			</table>
+			<div class="control-group" style="margin-bottom: 0px;">
+				<label class="control-label" style="margin-left: 40px;">甲方项目基本信息</label>
+			</div>
+			<table class="table table-hover table-bordered" style="width: 800px;margin-left:90px;">
+				<thead>
+				<tr>
+					<th style="text-align: center;">上传时间</th>
+					<th style="text-align: center;">上传人姓名</th>
+					<th style="text-align: center;">文件名</th>
+					<th style="text-align: center;">操作</th>
+				</tr>
+				</thead>
+				<tbody>
+				<volist name="project" id="val">
+					<tr>
+						<td style="text-align: center;"><?= date('Y-m-d H:i:s',$val['create_time'])?></td>
+						<td style="text-align: center;">{$val.user_name}</td>
+						<td style="text-align: center;">{$val.file_name}</td>
+						<td style="text-align: center;"><a href="{:U('Distribution/downloadbase',array('id'=>$val['id']))}" class="btn" style="background:#1abc9c">下载</a></td>
+					</tr>
+				</volist>
+				<if condition="$count eq 0">
+					<tr><td colspan="4" style="text-align: center;">暂无上传资料</td></tr>
+				</if>
+				</tbody>
+			</table>
+			<div class="pagination" style="margin-left: 90px">{$page}</div>
+		</fieldset>
+	</form>
+</div>
+<script src="__PUBLIC__/js/common.js"></script>
+<script src="__PUBLIC__/js/artDialog/artDialog.js"></script>
+<script type="text/javascript">
+    var select = document.getElementById('select');
+    select.onchange = function(){
+        var val = this.value;
+        location.href = '{:U("Distribution/index")}'+'&project_id='+val;
+    };
+	
+</script>
+</body>
+</html>

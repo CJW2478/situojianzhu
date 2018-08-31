@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+	    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+	    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+		<title>进度展示</title>
+	    <link rel="stylesheet" href="../lib/weui/jquery-weui.css" />
+	    <link rel="stylesheet" href="../lib/weui/weui.min.css" />
+	    <link rel="stylesheet" href="../lib/swiper/swiper.min.css" />
+	    <link rel="stylesheet" href="../css/public.css" />
+	    <link rel="stylesheet" href="../css/style.css" />
+	    <script type="text/javascript" src="../lib/jq/jquery-1.10.2.js" ></script>
+	    <script type="text/javascript" src="../lib/weui/jquery-weui.js" ></script>
+	    <script type="text/javascript" src="../lib/swiper/swiper.min.js" ></script>
+	    <script type="text/javascript" src="../js/v.min.js" ></script>
+	    <script type="text/javascript" src="../js/echarts.common.min.js" ></script>
+	    <script type="text/javascript" src="../js/common.js" ></script>
+	</head>
+	<style>
+		.weui-photo-browser-modal .photo-container img{ height: auto;}
+		.swiper-container.slideBox{ z-index: 0;}
+	</style>
+	<body>
+		<section class="mainSec" id="app">
+			<div class="banner">
+				<div class="jiaji" :class="isjiaji?'active':''" @click="jiaji($event)" v-text="jiajitext"></div>
+				<img src="../img/banner@2x.png" class="none" />
+				<div class="projectInfo">
+					<p class="tit">项目名称项目名称项目名称</p>
+					<p>成都亿合科技有限公司</p>
+					<p>15254556558</p>
+				</div>
+			</div>
+			<div class="tabs clearfix" style="margin: 1.5rem 0;">
+				<div class="active" @click="tabsFn($event,1)">平面图方案阶段</div>
+				<div @click="tabsFn($event,2)">效果图方案阶段</div>
+				<div @click="tabsFn($event,3)">施工图阶段</div>
+			</div>
+			<div class="contactBox disbox" v-show="state==1||state==2">
+				<div>
+					<div class="contentBox">
+						<p>乙方负责人</p>
+						<div>耿总<img src="../img/xiaoboda@2x.png" onclick="call(this,'18725950959')" /></div>
+					</div>
+				</div>
+				<div class="disflex">
+					<div class="contentBox">
+						<p>乙方方案师 <a href="jianli.html" class="jianli" v-show="hasjl">(查看简历)</a></p>
+						<div>小王<img src="../img/xiaoboda@2x.png" onclick="call(this,'18725950959')" /></div>
+						<p>QQ号:872545858</p>
+						<p>微信号:872545858</p>
+					</div>
+				</div>
+			</div>
+			<div class="speedbox">
+				<div class="tit"><span v-text="stepName"></span>进度</div>
+				<div class="swiper-container slideBox" v-show="state==1||state==2">
+					<ul class="swiper-wrapper">
+						<li class="swiper-slide" v-for="prop in stepList" :class="step==prop.step?'active':''" v-text="prop.texts"></li>
+					</ul>
+				</div>
+				<div class="chartBox" v-show="state==3">
+					<div class="chartItem" v-for="prop,index in step3List">
+						<div class="calls" @click="call($event,prop.mobile)"></div>
+						<div class="chart" :id="prop.ids"></div>
+						<div class="texts" v-text="prop.name" @click="speed($event,prop.desc,index)"></div>
+					</div>
+				</div>
+			</div>
+			<div class="listBox">
+				<div class="tit"><span v-text="stepName"></span>沟通记录</div>
+				<div class="xmList">
+					<ul>
+						<li v-for="prop in list" style="padding: 10px;background-image: none;">
+							<div class="yulan" @click="yulan($event,prop.img)">预览</div>
+							<div class="disbox" style="margin-left: 5rem;">
+								<span class="disflex" style="color: #999; font-size: 1.1rem;" v-text="prop.time"></span>
+								<span style="color: #000; font-size: 1.2rem;">上传人 : <span v-text="prop.person"></span></span>
+							</div>
+							<div class="Line3" style="padding-top: 10px;color: #666;" v-text="prop.texts"></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="callService" @click="call(this,mobile)"></div>
+			<div v-show="speedclick" class="meng"></div>
+			<div v-show="speedclick" class="speedContent">
+				<div class="desc"></div>
+				<div class="close" @click="close($event)"></div>
+			</div>
+		</section>
+	</body>
+</html>
+<script>
+bgImg('banner',.57);
+	var app = new Vue({
+		el:'#app',
+		data:{
+			mobile:'18725950959',
+			isjiaji:false,    //是否已经加急
+			jiajitext:'加急',
+			hasjl:true,    //该方案师是否有简历
+			step:3,     //该阶段当前进行的步骤
+			state:1,     //当前选中第几阶段
+			name1:'平面图方案阶段',
+			name2:'效果图方案阶段',
+			name3:'施工图阶段',
+			stepName:'平面图方案阶段',
+			speedclick:false,    //是否打开进度详情框
+			step3List:[
+				{
+					name:'总进度',
+					ids:'chart1',
+					percent:45
+				},
+				{
+					name:'建筑专业',
+					ids:'chart2',
+					mobile:'123456789',
+					percent:40,
+					desc:"国外一对爸妈发现家里安静了好一阵子，然后镜子前一道蓝光闪过，过去检查时，才发现，小女儿Eve把自己“变”成了一个蓝精灵。国外一对爸妈发现家里安静了好一阵子，然后镜子前一道蓝光闪过，过国外一对爸妈发现家里安静了好一阵子，然后镜子前一道蓝光闪过，过去检查时，才发现，小女儿Eve把自己“变”成了一个蓝精灵。国外一对爸妈发现家里安静了好一阵子，然后镜子前一道蓝光闪过，过国外一对爸妈发现家里安静了好一阵子，然后镜子前一道蓝光闪过，过去检查时，才发现，小女儿Eve把自己“变”成了一个蓝精灵。国外一对爸妈发现家里安静了好一阵子，然后镜子前一道蓝光闪过，过国外一对爸妈发现家里安静了好一阵子，然后镜子前一道蓝光闪过，过去检查时，才发现，小女儿Eve把自己“变”成了一个蓝精灵。国外一对爸妈发现家里安静了好一阵子，然后镜子前一道蓝光闪过，过"
+				},
+				{
+					name:'结构专业',
+					ids:'chart3',
+					mobile:'223456789',
+					percent:22,
+					desc:""
+				},
+				{
+					name:'电气专业',
+					mobile:'323456789',
+					ids:'chart4',
+					percent:10,
+					desc:"国外一对爸个蓝精灵。国外一对爸妈发现家里安静了好一阵子，然后镜子前一道蓝光闪过，过国外一对爸妈发现家里安静了好一阵子，然后镜子前一道蓝光闪过，过去检查时，才发现，小女儿Eve把自己“变”成了一个蓝精灵。国外一对爸妈发现家里安静了好一阵子，然后镜子前一道蓝光闪过，过"
+				},
+				{
+					name:'园林景观及总图',
+					mobile:'423456789',
+					ids:'chart5',
+					percent:30,
+					desc:"国外一对爸妈发现家里安静了好一阵子，然后镜子前一道蓝光闪过，过去检查时，才发现，小女儿Eve把自己“变”成了一个蓝精灵。国后镜子前一道蓝光闪过，过去检查时，才发现，小女儿Eve把自己“变”成了一个蓝精灵。国外一对爸妈发现家里安静了好一阵子，然后镜子前一道蓝光闪过，过"
+				},
+			],     //第三阶段进度列表
+			list:[
+				{
+					id:1,
+					time:'2018.05.22 12:00',
+					person:'小一',
+					texts:'方案描述最多三行方案描述最多三行方案描述最多三行方案描述最多三行方案描述最多三行方案描述最多三行方案描述最多三行方案描述最多三行方案描述最多三行',
+					img:"../img/banner@2x.png"
+				},
+				{
+					id:2,
+					time:'2018.05.22 12:00',
+					person:'小二',
+					texts:'方案描述最多三行方案描述最多三行方案描述最多三行方案描述最多三行',
+					img:""
+				}
+			],       //阶段沟通列表
+			stepList:[
+				{
+					step:1,
+					texts:'甲方上传资料'
+				},
+				{
+					step:2,
+					texts:'乙方分配方案师'
+				},
+				{
+					step:3,
+					texts:'乙方负责人审核'
+				},
+				{
+					step:4,
+					texts:'甲方负责人审核'
+				}
+			],       //阶段步骤列表
+			
+		},
+		methods:{
+			//切换当前方案
+			tabsFn:function(evt,type){
+				var self=this;
+				//ajax
+				self.state=type;
+				self.stepName=(type==1?self.name1:(type==2?self.name2:self.name3));
+				initSwiper();
+				$(evt.target).addClass('active').siblings().removeClass('active');
+			},
+			//点击加急
+			jiaji:function(evt){
+				var self=this;
+				if(self.isjiaji==false){   //未加急
+					//ajax
+					self.isjiaji=true;
+					self.jiajitext='已加急';
+				}
+			},
+			//查看进度描述
+			speed:function(evt,desc,index){
+				var self=this;
+				if(index==0){    //第一个，不可点击
+					return false;
+				}
+				if(desc.length<1){
+					$.toast("该专业人员还没有填写进度动态","text");
+					return false;
+				}
+				self.speedclick=true;
+				$('.desc').html(desc);
+				$('body').addClass('overflow');
+			},
+			//关闭进度描述
+			close:function(evt){
+				var self=this;
+				self.speedclick=false;
+				$('body').removeClass('overflow');
+			},
+			//点击预览
+			yulan:function(evt,img){
+				if(img.length<1){
+					$.toast("抱歉，由于后台上传的文件不是图片格式，无法预览","text");
+					return false;
+				}
+				var preview = $.photoBrowser({
+				  items: [
+					img
+				  ]
+				});
+				preview.open();
+			}
+		}
+	})
+	function initSwiper(){
+		var mySwiper = new Swiper('.swiper-container',{
+			initialSlide :app.step-1,
+			slidesPerView : 2,
+			spaceBetween : 10,
+			centeredSlides : true,
+		})
+    }
+	function initCharts(){
+		var color=["#3179fc","#51c7f2","#9a7acb","#eb4986","#51c7f2","#9a7acb","#eb4986","#51c7f2","#9a7acb","#eb4986"];
+		for(var i=0;i<app.step3List.length;i++){
+			if(i==0){
+				var radius=['60%','70%'];
+			}
+			else{
+				var radius=['65%','70%'];
+			}
+			var myChart="myChart"+(i+1);
+			var ids="chart"+(i+1);
+			var num=app.step3List[i].percent;
+			var pernum=app.step3List[i].percent+"%";
+			myChart = echarts.init(document.getElementById(ids));
+			option1 = {
+				color:[color[i],"#ccc"],
+				 series: [
+					{
+						name:app.step3List[i].name,
+						type:'pie',
+						radius: radius,
+						avoidLabelOverlap: false,
+						animation: false,
+						silent:true,
+						label: {
+							normal: {
+								show: true,
+				                    position: 'center',
+				                    textStyle: {
+				                        fontSize: '20',
+				                        color:'#000',
+				                    }
+				               },
+				           },
+			            data:[
+			                {value:num, name:pernum},
+			                {value:100-num, name:''}
+			            ]
+			        }
+			    ]
+			};
+			myChart.setOption(option1);
+		}
+		
+	}
+	$(function(){
+		initSwiper();
+		initCharts();
+	})
+</script>
+
+
+
+
+

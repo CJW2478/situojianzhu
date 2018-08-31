@@ -1,0 +1,23 @@
+[ 2018-08-24T10:06:12+08:00 ] 118.122.96.137 /company/index.php?g=&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003333s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.007944s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.003459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015962s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.010306s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.010370s ]
+
+[ 2018-08-24T10:06:17+08:00 ] 118.122.96.137 /company/index.php?g=&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003328s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.008204s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.004405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017188s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.010141s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.010201s ]
+SQL: SHOW COLUMNS FROM `xly_company` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `xly_company` WHERE `user_login` = 'ksdlcjzx' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `xly_company` SET `company_name`='喀什市教育局',`user_login`='ksdlcjzx',`user_pass`='###3440ea56fe55470c5b910b32f2391180',`isdel`='0',`create_time`='1534821351',`user_status`='1',`last_login_ip`='118.122.96.137',`last_login_time`='2018-08-24 10:06:17' WHERE `id` = 18 [ RunTime:0.0056s ]
+

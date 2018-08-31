@@ -1,0 +1,53 @@
+[ 2018-08-15T12:08:46+08:00 ] 222.211.255.240 /company/index.php?g=&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003262s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.007916s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.003470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015851s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.010117s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.010174s ]
+SQL: SHOW COLUMNS FROM `xly_company` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `xly_company` WHERE `user_login` = '199821226888' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-08-15T12:10:42+08:00 ] 222.211.255.240 /company/index.php?g=&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003557s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.009031s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.003680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017556s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.010734s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.010788s ]
+
+[ 2018-08-15T12:10:51+08:00 ] 222.211.255.240 /company/index.php?g=&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004467s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.011042s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.004840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022040s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.013966s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.014036s ]
+SQL: SHOW COLUMNS FROM `xly_company` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `xly_company` WHERE `user_login` = 'ksdqjgxx' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `xly_company` SET `company_name`='喀什地区技工学校',`user_login`='ksdqjgxx',`user_pass`='###3440ea56fe55470c5b910b32f2391180',`isdel`='0',`create_time`='1534226660',`user_status`='1',`last_login_ip`='222.211.255.240',`last_login_time`='2018-08-15 12:10:51' WHERE `id` = 17 [ RunTime:0.0060s ]
+
+[ 2018-08-15T12:11:10+08:00 ] 222.211.255.240 /company/index.php?g=Admin&m=Member&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003331s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.007885s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.003477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015917s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.010224s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.010287s ]
+SQL: SHOW COLUMNS FROM `xly_company` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `xly_company` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xly_account` [ RunTime:0.0098s ]
+SQL: UPDATE `xly_account` SET `mobile`='19982122688',`user_name`='张文娟',`user_duty`='科长',`id`='28' WHERE ( id='28' ) [ RunTime:0.0059s ]
+SQL: SELECT * FROM `xly_account` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xly_project` [ RunTime:0.0123s ]
+SQL: UPDATE `xly_project` SET `mobile`='19982122688' WHERE ( id='31' ) [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: url E:\phpStudy\WWW\situojianzhu\company\application\Common\Controller\AppframeController.class.php 第 22 行.
+

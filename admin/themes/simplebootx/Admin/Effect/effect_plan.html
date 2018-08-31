@@ -1,0 +1,223 @@
+<admintpl file="header" />
+</head>
+<style>
+.row-fluid{
+	display:none;position: fixed;  top: 20%;border-radius: 3px;  left: 28%; width: 44%; overflow:hidden; overflow-y: auto;  padding: 8px;  border: 1px solid #E8E9F7;  background-color: white;  z-index:10003;
+}
+#bg{ display: none;  position: fixed;  top: 0%;  left: 0%;  width: 100%;  height: 100%;  background-color: black;  z-index:1001;  -moz-opacity: 0.7;  opacity:.70;  filter: alpha(opacity=70);}
+
+.table tr th,.table tr td{
+	text-align: center;
+}
+</style>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="javascript:;">效果图方案阶段</a></li>
+		</ul>
+		<form class="well form-search">
+			项目：
+			<select id="select">
+				<foreach name="project_ids" item="vo">
+					<php>$selected=$project_id==$vo['id']?"selected":"";</php>
+					<option value="{$vo.id}" {$selected}>{$vo.project_name}</option>
+				</foreach>
+			</select>
+		</form>
+		<ul class="nav nav-tabs pointUl">
+			<li><a href="{:U('Effect/index',array('project_id'=>$principal['id']))}">甲方项目基本信息</a></li>
+			<li><a href="{:U('Effect/communication',array('project_id'=>$principal['id']))}">沟通记录文件<if condition="$sign['ggcount'] gt 0 "><span class="pointred">.</span></if></a></li>			
+			<li><a href="{:U('Effect/project_style',array('project_id'=>$principal['id']))}">项目风格图片<if condition="$sign['fgcount'] gt 0 "><span class="pointred">.</span></if></a></li>
+			<li class="active"><a href="{:U('Effect/effect_plan',array('project_id'=>$principal['id']))}">效果图方案<if condition="$sign['xgcount'] gt 0 "><span class="pointred">.</span></if></a>
+			<li><a href="{:U('Effect/scheme',array('project_id'=>$principal['id']))}">编制规划方案文本 <if condition="$sign['bzcount'] gt 0 "><span class="pointred">.</span></if></a>
+		</ul>
+		<form class="form-horizontal" id="tagforms" method="post" enctype="multipart/form-data">
+		<fieldset>
+			<div class="control-group" style="margin-bottom: 0px;">
+				<label class="control-label">项目名称：</label>
+				<div class="controls" style="margin-top: 5px;">
+					<label>{$principal.project_name}</label>
+				</div>
+			</div>
+			<div class="control-group" style="margin-bottom: 0px;">
+				<label class="control-label">项目编号：</label>
+				<div class="controls" style="margin-top: 5px;">
+					<label>{$principal.project_no}</label>
+				</div>
+			</div>
+			<div class="control-group" style="margin-bottom: 0px;">
+				<label class="control-label" style="margin-left: 70px;">甲方负责人基本信息：</label>
+			</div>
+			<table class="table table-hover table-bordered" style="width: 900px;margin-left:90px;">
+				<thead>
+				<tr>
+					<th style="text-align: center;">姓名</th>
+					<th style="text-align: center;">联系方式</th>
+					<th style="text-align: center;">职务</th>
+					<th style="text-align: center;">qq号</th>
+					<th style="text-align: center;">微信号</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td style="text-align: center;">{$principal.principal_name}</td>
+					<td style="text-align: center;">{$principal.mobile}</td>
+					<td style="text-align: center;">{$principal.duty}</td>
+					<td style="text-align: center;">{$principal.qq}</td>
+					<td style="text-align: center;">{$principal.wx}</td>
+				</tr>
+				</tbody>
+			</table>
+			<div class="control-group" style="margin-bottom: 0px;">
+					<label class="control-label" style="margin-left: 50px;width: 200px">第一次上传效果图方案：</label>
+			</div>
+			<div class="control-group" style="margin-bottom: 0px;">
+				<label class="control-label">&nbsp;</label>
+				<div class="controls" style="margin-bottom: 5px;">
+					<a href="javascript:upload_effect('文件上传','#thumb','file','','','{$project_id}',1,'Effect/effect_plan')">
+						<span class="btn" style="margin-left: -88px;background:#1abc9c">上传至乙方负责人</span>
+					</a>
+					<span style="margin-left: 20px;color:#ccc">注：首次上传需要乙方负责人确认，请上传效果图方案时一并上传一份相关介绍视频</span>
+				</div>
+			</div>
+			<table class="table table-hover table-bordered" style="width: 900px;margin-left:90px;">
+				<thead>
+				<tr>
+					<th style="text-align: center;min-width: 80px;">上传时间</th>
+					<th style="text-align: center;min-width: 120px;">文件名</th>
+					<th style="text-align: center;min-width: 80px;">上传人姓名</th>
+					<th style="text-align: center;min-width: 80px;">乙方负责人确认状态</th>
+					<th style="text-align: center;">操作</th>
+				</tr>
+				</thead>
+				<tbody>
+				<volist name="first_files" id="val">
+					<if condition="$val.is_first eq 1">
+						<tr>
+							<td style="text-align: center;">{$val.create_time|date='Y-m-d H:i',###}</td>
+							<td style="text-align: center;">{$val.file_name}</td>
+							<td style="text-align: center;">{$val.user_name}</td>
+							<td style="text-align: center;">
+								<if condition="$val['status'] eq 0"><span>已确认</span></if>
+								<if condition="$val['status'] eq 1"><span style="color:red">未处理</span></if>
+							</td>
+							<td style="text-align: center;">
+								<a href="{:U('Effect/downloadeffect',array('id'=>$val['id']))}" class="btn" style="background:#1abc9c">下载</a>
+							</td>
+						</tr>
+					</if>
+				</volist>
+				<if condition="count($first_files) eq 0">
+					<tr><td colspan="5" style="text-align: center;">暂无资料信息</td>
+					</tr>
+				</if>
+				</tbody>
+			</table>
+			<div class="control-group" style="margin-bottom: 0px;">
+				<label class="control-label" style="margin-left: 20px;">效果图方案：</label>
+			</div>
+			<div class="control-group" style="margin-bottom: 0px;">
+				<label class="control-label">&nbsp;</label>
+				<div class="controls" style="margin-bottom: 5px;">
+					<if condition="$status eq 1">
+						<a href="javascript:upload_effect('文件上传','#thumb','file','','','{$project_id}',0,'Effect/effect_plan')">
+							<span class="btn" style="margin-left: -88px;background:#1abc9c">上传至甲方负责人</span>
+						</a>
+						<else/>
+						<span class="btn" style="cursor:default;margin-left: -88px;background:grey">上传至甲方负责人</span>
+					</if>
+					<span style="margin-left: 20px;color:#ccc">注：首次上传的效果图方案经乙方负责人确认后将在此表中显示</span>
+				</div>
+			</div>
+			<table class="table table-hover table-bordered" style="width: 900px;margin-left:90px;">
+				<thead>
+					<tr>
+						<th style="text-align: center;min-width: 80px;">上传时间</th>						
+						<th style="text-align: center;min-width: 120px;">文件名</th>
+						<th style="text-align: center;min-width: 80px;">上传人姓名</th>
+						<th style="text-align: center;min-width: 80px;">甲方负责人审核状态</th>
+						<th style="text-align: center;min-width: 80px;">乙方负责人确认状态</th>
+						<th style="text-align: center;min-width: 180px;">操作</th>
+					</tr>
+				</thead>
+				<tbody id="messagelist">
+					<volist name="files" id="val">					
+					<tr>						
+						<td style="text-align: center;">{$val.create_time|date='Y-m-d H:i',###}</td>
+						<td style="text-align: center;">{$val.file_name}</td>
+						<td style="text-align: center;">{$val.user_name}</td>
+						<td style="text-align: center;"><if condition="$val['audit_status'] eq 0"><span>审核通过</span></if><if condition="$val['audit_status'] eq 2"><span>审核不通过</span></if><if condition="$val['audit_status'] eq 1"><span style="color:red">未处理</span></if></td>
+						<td style="text-align: center;">
+							<if condition="$val['audit_status'] eq 0">
+									<if condition="$val['status'] eq 0"><span>已确认</span></if>
+									<if condition="$val['status'] eq 1"><span style="color:red">未处理</span></if>
+								<else/>
+									<if condition="$val['status'] eq 0"><span>已确认</span></if>
+							</if>
+						</td>
+						<td style="text-align: center;">
+							<a href="{:U('Effect/downloadeffect',array('id'=>$val['id']))}" class="btn" style="background:#1abc9c">下载</a>
+							<if condition="$val['message'] neq '' || $val['mfile_name'] neq ''">
+							<a href="javascript:;" onclick="show_div('{$val.message}','{$val.mfile_name}','{$val.id}');" class="btn" style="background:#1abc9c">查看反馈</a>
+							</if>
+						</td>
+					</tr>					
+					</volist>
+					<if condition="count($files) eq 0">
+					<tr><td id="nonumber" colspan="5" style="text-align: center;">暂无资料信息</td>
+					</tr>
+					</if>
+				</tbody>
+			</table>
+			<div class="pagination" style="margin-left: 90px;">{$page}</div>
+			<div class="row-fluid" style="display: none">
+				<div style="overflow: hidden;"><span style="cursor:pointer;float: right;float: right;background: #1dccaa;border-radius: 50%;width: 20px;height: 20px;line-height: 18px;text-align: center;color: white;" onclick="close_div();">x</span></div>
+				<div style="margin-top: 10px;width: 85%;margin: 0 auto;">					
+					<div id="messagecontent" style="max-height: 400px;overflow-y:scroll;height: 200px;border:1px solid #ccc;padding:20px;border-radius:5px;">						
+					</div>
+				</div>
+				<div style="margin-top:10px;text-align:center" id="filedata">					
+					<div id="messagefile">文件名：<span id="filename"></span><a class="btn" id="downurl" href="" style="margin-left: 20px;background: #1abc9c">下载</a>						
+					</div>
+				</div>
+			</div>
+		</fieldset>
+		</form>
+	</div>
+	<div id="bg" onclick="close_div()"></div>
+<script src="__PUBLIC__/js/common.js"></script>
+<script src="__PUBLIC__/js/layer/layer.js"></script>
+<script type="text/javascript">
+    var select = document.getElementById('select');
+    select.onchange = function(){
+        var val = this.value;
+        location.href = '{:U("Effect/index")}'+'&project_id='+val;
+    };
+
+    function show_div(message,filename,urlid) {
+        $("#bg").css('display','block');
+        $('#qg_check').css('display','none');
+        $('.row-fluid').css('display','block');
+        $("#filedata").show();
+		if(message =='')
+		{
+			message ='暂无内容';
+		}
+        $("#messagecontent").html(message);
+        if (filename) {
+            $("#filename").html(filename);
+			var url ="{:U('Effect/downloadeffect2')}"+"&id="+urlid;
+            $("#downurl").attr('href',url);
+            $("#downurl").attr('download',filename);
+        }else {
+            $('#messagefile').remove();
+		}
+    }
+
+    function close_div() {
+        $('.row-fluid').css('display','none');
+        $('#bg').css('display','none');
+    }
+</script>
+</body>
+</html>

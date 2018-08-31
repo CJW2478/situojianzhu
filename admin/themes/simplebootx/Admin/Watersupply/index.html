@@ -1,0 +1,265 @@
+<admintpl file="header" />
+</head>
+<style>
+.row-fluid{
+	display:none;position: fixed;  top: 20%;border-radius: 3px;  left: 28%; width: 44%;height: 400px; overflow:hidden; overflow-y: auto;  padding: 8px;  border: 1px solid #E8E9F7;  background-color: white;  z-index:10003;
+}
+#bg{ display: none;  position: fixed;  top: 0%;  left: 0%;  width: 100%;  height: 100%;  background-color: black;  z-index:1001;  -moz-opacity: 0.7;  opacity:.70;  filter: alpha(opacity=70);}
+.row-fluid2{
+	display:none;position: fixed;  top: 20%;border-radius: 3px;  left: 28%; width: 44%;height: 400px; overflow:hidden; overflow-y: auto;  padding: 8px;  border: 1px solid #E8E9F7;  background-color: white;  z-index:10003;
+}
+#bg2{ display: none;  position: fixed;  top: 0%;  left: 0%;  width: 100%;  height: 100%;  background-color: black;  z-index:1001;  -moz-opacity: 0.7;  opacity:.70;  filter: alpha(opacity=70);}
+.table tr th,.table tr td{
+	text-align: center;
+}
+#messageerror{text-align: center;color: red;}
+</style>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="javascript:;">给排水专业</a></li>
+		</ul>
+		<form class="well form-search" method="post" action="{:U('Watersupply/index')}">	
+			项目： 
+			<select name="project_id" style="width: 150px;" onchange="dochangetype(this.value)">
+                 <if condition="count($project) neq 0">
+                <volist name="project" id="va">
+                <option value="{$va.id}" <if condition="$formget['project_id'] eq $va['id']">selected</if>>{$va.project_name}</option>   
+                </volist>  
+				<else/>
+				<option>暂未分配项目</option>
+				</if>                           
+            </select>
+		</form>
+		<ul class="nav nav-tabs pointUl">
+			<li class="active"><a href="{:U('Watersupply/index',array('project_id'=>$info['id']))}">平面图</a></li>
+			<li><a href="{:U('Watersupply/zyinfolist',array('project_id'=>$info['id']))}">各专业条件图<if condition="$zyncount gt 0"><span class="pointred">.</span></if></a></li>
+			<li><a href="{:U('Watersupply/bzysglist',array('project_id'=>$info['id']))}">本专业施工图</a></li>
+			<li><a href="{:U('Watersupply/nbmessagelist',array('project_id'=>$info['id']))}">施工图审查意见（内审、外审）<if condition="$nbncount gt 0"><span class="pointred">.</span></if></a></li>
+			<li><a href="{:U('Watersupply/doinglist',array('project_id'=>$info['id']))}">进度动态</a></li>
+			<li><a href="{:U('Watersupply/allzylist',array('project_id'=>$info['id']))}">各专业人员基本信息</a></li>
+		</ul>
+		<form class="form-horizontal" id="tagforms" method="post" enctype="multipart/form-data">
+		<fieldset>
+			<div class="control-group" style="margin-bottom: 0px;">
+					<label class="control-label">项目名称：</label>
+					<div class="controls" style="margin-top: 5px;">
+						<label>{$info.project_name}</label>
+					</div>
+			</div>
+			<div class="control-group" style="margin-bottom: 0px;">
+					<label class="control-label">项目编号：</label>
+					<div class="controls" style="margin-top: 5px;">
+						<label>{$info.project_no}</label>
+					</div>
+			</div>
+			<div class="control-group" style="margin-bottom: 0px;">
+					<label class="control-label" style="margin-left: 55px;">甲方负责人基本信息</label>
+			</div>
+			<table class="table table-hover table-bordered" style="width: 800px;margin-left:90px;">
+				<thead>
+					<tr>
+						<th style="text-align: center;">姓名</th>
+						<th style="text-align: center;">联系方式</th>
+						<th style="text-align: center;">职务</th>
+						<th style="text-align: center;">qq号</th>
+						<th style="text-align: center;">微信号</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td style="text-align: center;">{$info.principal_name}</td>
+						<td style="text-align: center;">{$info.mobile}</td>
+						<td style="text-align: center;">{$info.duty}</td>
+						<td style="text-align: center;">{$info.qq}</td>
+						<td style="text-align: center;">{$info.wx}</td>
+					</tr>
+				</tbody>
+			</table>			
+			<div class="control-group" style="margin-bottom: 0px;">
+					<label class="control-label" style="margin-left: 15px;">第一版平面图</label>
+					<span style="margin-left: 20px;color:#ccc;margin-top: 4px;position: absolute;">注：请针对第一版平面图整理反馈意见并一次性上传</span>	
+			</div>
+			<table class="table table-hover table-bordered" style="width: 800px;margin-left:90px;">
+				<thead>
+					<tr>						
+						<th style="text-align: center;min-width: 80px;">上传时间</th>						
+						<th style="text-align: center;min-width: 120px;">文件名</th>
+						<th style="text-align: center;">上传人姓名</th>						
+						<th style="text-align: center;">操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<volist name="firstpic" id="val">
+					<if condition="$val['filename'] neq ''">					
+					<tr>						
+						<td style="text-align: center;">{$val.createtime|date='Y-m-d H:i:s',###}</td>						
+						<td style="text-align: center;">{$val.filename}</td>
+						<td style="text-align: center;">{$val.user_name}</td>
+						<td style="text-align: center;">
+							<a href="{:U('Watersupply/download',array('id'=>$val['id']))}" class="btn" style="background:#1abc9c">下载</a>
+							<if condition="$val['isdo'] eq 0">
+							<a href="javascript:;" onclick="show_div('{$info.id}','{$val.id}')" class="btn" style="background:#1abc9c">意见反馈</a>
+							<else/>
+							<a href="javascript:;" onclick="show_div2('{$info.id}','{$val.id}','{$val.mid}')" class="btn" style="background:#1abc9c">我的反馈</a>
+							</if>
+						</td>
+					</tr>					
+					</if>
+					</volist>
+				</tbody>
+			</table>
+			<div class="control-group" style="margin-bottom: 0px;">
+					<label class="control-label" style="margin-left: 15px;">最终版平面图</label>
+			</div>
+			<table class="table table-hover table-bordered" style="width: 800px;margin-left:90px;">
+				<thead>
+					<tr>
+						
+						<th style="text-align: center;min-width: 80px;">上传时间</th>						
+						<th style="text-align: center;min-width: 120px;">文件名</th>
+						<th style="text-align: center;">上传人姓名</th>						
+						<th style="text-align: center;">操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<volist name="lastpic" id="val">
+						<if condition="$val['filename'] neq ''">				
+						<tr>						
+							<td style="text-align: center;">{$val.createtime|date='Y-m-d H:i:s',###}</td>						
+							<td style="text-align: center;">{$val.filename}</td>
+							<td style="text-align: center;">{$val.user_name}</td>
+							<td style="text-align: center;">
+								<a href="{:U('Watersupply/download',array('id'=>$val['id']))}" class="btn" style="background:#1abc9c">下载</a>
+							</td>
+						</tr>					
+						</if>	
+					</volist>				
+				</tbody>
+			</table>
+			<div class="row-fluid2" style="display: none">
+					<div style="margin-top:10px;">					
+						<div class="control-group">
+							<label class="control-label" style="width: 120px; ">备注：</label>
+							<div class="controls" style="margin-left: 130px;">
+								<textarea id="contentdesc" style="width: 80%;height: 230px;"></textarea>
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" style="width: 120px; ">上传意见文件：</label>
+							<div class="controls" style="margin-left: 130px;">
+								<span id="filename1">&nbsp;</span><a href="javascript:;" id="fileurldata" class="btn" style="margin-left: 5px;background:#1abc9c">下载</a>
+							</div>
+						</div>
+					</div>
+			</fieldset>
+			</form>
+			<form class="form-horizontal" name="tagforms3" method="post" enctype="multipart/form-data" action="{:U('Watersupply/index')}">
+			<fieldset>
+				<div class="row-fluid" style="display: none">
+					<div style="margin-top:10px;">					
+						<div class="control-group">
+							<label class="control-label" style="width: 120px; ">备注：</label>
+							<div class="controls" style="margin-left: 130px;">
+								<textarea id="content" maxlength='200' placeholder='不超过200字' name="content" style="width: 80%;height: 230px;"></textarea>
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" style="width: 120px; ">上传意见文件：</label>
+							<div class="controls" style="margin-left: 130px;">
+								<input type="file" name="filename" onclick="showfiledata()" id="filenamestr" value="">
+								<input type="hidden" id="filetype" value="0">
+							</div>
+						</div>
+					</div>
+					<div id="messageerror"></div>
+					<div style="text-align: center;margin-top: 10px;">
+						<input type="hidden" id="project_id" name="project_id" value="0">
+						<input type="hidden" id="upid" name="upid" value="0">
+						<a href="javascript:;" class="btn btn-primary" onclick="close_div()">取消</a>&nbsp;&nbsp;&nbsp;
+						<a href="javascript:;" class="btn btn-primary" onclick="eachSelect()">确认</a>
+					</div>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	<div id="bg" onclick="close_div()"></div>
+	<div id="bg2" onclick="close_div2()"></div>
+	<script src="__PUBLIC__/js/common.js"></script>	
+	<script type="text/javascript">
+	function  dochangetype(val)
+	{
+		console.log(val);
+		location.href = '{:U("Watersupply/index")}'+'&project_id='+val;
+	}
+	function showfiledata()
+	{
+		$("#filetype").val('1');
+	}
+	</script>
+	<script type="text/javascript">
+	function close_div() {
+		$("#content").val('');
+		$("#filenamestr").val('');
+        $('.row-fluid').css('display','none');
+        $('#bg').css('display','none');
+    }
+    function close_div2() {
+        $('.row-fluid2').css('display','none');
+        $('#bg2').css('display','none');
+    }
+    function show_div(id,ids) {
+    	$("#project_id").val(id);  
+    	$("#upid").val(ids);  	
+        $("#bg").css('display','block');
+        $('.row-fluid').css('display','block');     
+    }
+    function show_div2(projectid,ids,mid) {     
+    	$("#bg2").css('display','block');
+        $('.row-fluid2').css('display','block');      
+        $.ajax({
+        	url:"{:U('Admin/Watersupply/getmessageinfo')}",
+        	data:{mid:mid,project_id:projectid,upid:ids},
+        	type:'POST',
+        	success:function(data)
+        	{
+        		if(data.status==0)
+        		{
+        			$("#contentdesc").val(data.content);
+        			$("#filename1").html(data.filename);
+					if(data.filename !=null){
+						$("#fileurldata").attr('href',data.url);
+					}else{
+						$("#fileurldata").css('background','#ccc');
+					}
+        		}
+        	}
+        })   
+    }
+	var istap=0;
+	function eachSelect()
+	{
+		if(istap==1){return;}
+		var msg =true;
+		var content =$("#content").val();
+		var filetype =$("#filetype").val();
+		if(content == '' && filetype ==0)
+		{
+			$("#messageerror").show();
+			$("#messageerror").html('备注与上传意见文件至少填写一个');
+			istap=1;
+			setTimeout(function(){
+				$("#messageerror").hide();
+				istap=0;	
+			},2000);
+			msg=false;
+		}		
+		if(msg == true)
+		{
+			$("#messageerror").html();
+			 document.tagforms3.submit();
+		}
+	}
+	</script>
+</body>
+</html>

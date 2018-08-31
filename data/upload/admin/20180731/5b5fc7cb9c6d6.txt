@@ -1,0 +1,572 @@
+特种设备：
+http://tzsb.88888805.ehecd.com/ 只测特种设备辨识单位后台 账号和密码 初始:13258352856 123456
+
+0285258529 客服电话
+思拓建筑设计项目
+乙方后台地址：http://stjz.d-intel.com/admin 
+账号admin  密码admin
+甲方后台地址：http://stjz.d-intel.com/company 
+前台地址 请关注 亿养车 公众号
+测试进度：平面设计方案-指标、测算方案
+有项目的方案人员是否可以删除？ 不可以
+
+71241304459105
+觅辛小程序
+后台：https://mixin.yunyicd.com/Backstage/User/Login
+
+微测试：
+全部评论：展开/收起回复？
+支付失败后页面跳转问题
+收到的评论
+消息-物流消息
+优惠券领取
+物流详情
+订单页面，若名称/规格显示过长，前端是...代替？
+
+测试位置：通知消息
+
+
+消防：
+总后台：http://fire.server75.ehecd.com/Admin/User/Login
+测试账号：admin/123456
+消防部门后台：http://fire.server75.ehecd.com/FireDept/UnitUser/Login
+测试账号：admin/123456
+使用单位后台：http://fire.server75.ehecd.com/UseDept/UnitUser/Login
+测试账号：admin111/123456
+维护公司后台：http://fire.server75.ehecd.com/RepairDept/UnitUser/Login
+测试账号：admin/123456
+未测：用户-单位信息一键拨号  首页轮播图有时不能出现 反馈详情页面时间显示需要精确到分
+进度：点检员-意见反馈
+
+慈善：
+前端：天舜网络（搜索公众号）
+后台地址：               
+http://afk.hys.cn/index.php/Admin/Login/login.html
+18030716720
+账号：admin  密码：123456
+测试进度：医生-首页
+医生-再次申请记录
+
+
+
+易富数据新增：
+http://yfsj.server184.51scmb.com/index.php/Admin/Login/login.html
+CBC3A3B215223032
+
+
+装卸专家：
+http://zxzj.88888805.ehecd.com/Admin/Home 
+
+老板入驻成功极光推送？
+老板端已抢光？
+
+
+学车帮：
+http://xuechebang.server184.51scmb.com/admin/public/login.html
+admin     123456
+
+扶贫：
+http://test.sctshd.com/index.php/Admin/Login/login.html 
+1、如果村镇删除，该村镇的村社干部和贫困户是否还有联系？
+
+
+酒店：
+后台地址:http://jiudian.server.ehecd.com/Admin
+账号：admin
+密码:123456
+
+
+
+阿诗丹顿：
+项目地址：http://jxc.server75.ehecd.com/home/login 
+超级管理员账号和密码： leadline 123456
+
+疑问：
+1、销售单：折扣商品怎么来的？
+
+
+飞狗：
+未测试：
+微信-配件详情页面及下单流程
+
+
+毕设：
+后台地址：http://gdms.server75.ehecd.com/Admin/User/Login
+测试账号：admin/123456
+学生/教师端地址：http://gdms.server75.ehecd.com/PC/Home/Login
+学生测试账号：2018003/123456
+教师测试账号：925669740@qq.com/123456
+
+疑问：
+后台-课题详情-已通过：在截止日期日安用户未完成项点击后可发送模板邮件提示已完成不可点击查看？
+
+
+青羊移动：
+http://yd2.server.ehecd.com/admin 总账号 admin 123456 销售现在客服 yanglin 123456 办理员 banliyuan 123456 微信公众号 亿合外卖
+
+
+毕设系统二期：
+后台地址：http://gdms.server75.ehecd.com/Admin/User/Login
+测试账号：admin/123456
+学生/教师端地址：http://gdms.server75.ehecd.com/PC/Home/Login
+学生测试账号：3806303002/123456
+教师测试账号：869978552@qq.com/123456
+
+天府创客：
+测试后台地址:http://tfck.server184.51scmb.com/admin
+账号；admin
+密码 :123456
+公众号:亿合房产
+
+
+
+魅力荟二期：
+公众号：淘成都
+http://hb.88888805.ehecd.com/Admin/Home
+疑问：
+首页-有店主：店铺说明？
+首页-头像：是否有提示，会员享折扣。。。。
+
+
+百汇天下：http://bhtx.server.ehecd.com/index.php?g=admin&m=public&a=login
+未测：
+
+
+厨房用品：
+后台地址：http://cfyp.server75.ehecd.com/Admin/User/Login
+登录账号 ： admin   123456
+前端微信公众号：亿合外卖
+
+礼品兑换：
+后台地址：http://gift.server75.ehecd.com/Admin/Home
+账号/密码：admin/123456
+前端地址：关注“亿合商务”公众号，菜单进入
+
+
+何氏眼科：
+后台：http://hseye.88888805.ehecd.com/Admin/Home 
+admin，123456
+前台：关注公众号“亿合商城”
+
+易富数据：
+后台地址：http://test4.sctshd.com/index.php/Admin/Index/index.html 
+账号：admin， 密码：123456 
+前端地址：http://test4.sctshd.com/IFpage/ 
+
+http://xrhy.server184.51scmb.com/Admin 
+admin   123456
+测试进度：总后台-销量统计
+
+毕设系统：
+
+后台地址：http://gdms.server75.ehecd.com/Admin/User/Login 
+
+测试账号：admin/123456
+学生/教师端地址：http://gdms.server75.ehecd.com/PC/Home/Login 
+
+学生测试账号：123456789/1234567
+教师测试账号：317590374@qq.com/123456
+
+
+大众健康：
+后台地址：http://dzjk.server.ehecd.com/admin 
+admin   123456
+
+
+中银保险：
+http://zybx.server.ehecd.com 
+http://zybx.server.ehecd.com/admin 
+admin   123456
+
+
+测试微信号：
+test哈哈哈2106354045(ehecdtest)/名字就要取长一点3065296854(ehetest1)/ip63011812275（ehecdte)
+
+装卸专家：
+http://zxzj.88888805.ehecd.com/Admin/Home 
+
+admin 123456
+
+
+亿读荟
+后台：http://ydh.server75.ehecd.com/Admin/Home/Login 
+账号：  leadline/123456
+前台：   关注“亿读荟”公众号
+
+暂未测试：
+1、微课上课详情上传格式和大小
+2、后台评论置顶
+3、我发起的微课，不明白是否只展示审核通过的数据                                                                       4、注册页面的平台注册协议，后台没有设置地方，需产品确定协议文章内容 
+5、触发评论提示是够还需要改功能，原型在评论弹框
+6、实训签到  ？？
+7、赠送实训课程支付后，页面跳转到线下课程可以么？
+8、线下实训是否可以查看报名人员
+9、线下实训的三方咨询与微课不一致？
+10、删除课程，前端不展示，订单数据保存。线上同理
+12、后台线下实训列表-有导师简介？
+13、后台实训列表点击二维码可下载？
+14、微信线上课程广告图？？
+15、微信-线上课程视频详情页面多出个向右图标？
+16、微信线上课程系列购买
+17、退款
+咨询师流程
+
+
+
+
+
+腾讯云点播：https://console.cloud.tencent.com/workorder/category/create?level1_id=29&level2_id=36&level1_name=%E8%A7%86%E9%A2%91%E4%B8%8E%E9%80%9A%E4%BF%A1%E6%9C%8D%E5%8A%A1&level2_name=%E7%82%B9%E6%92%AD%20VOD 
+注册邮箱：lwl470317520@qq.com
+登录密码：ydh123456789@
+云产品——>视频-点播——>导出excel——>复制“手机MP4”链接地址
+
+
+<a href="http://leadline.vicp.cc/html/microclass/index.html">微课</a>
+<a href="http://leadline.vicp.cc/html/Consultation/index.html">咨询</a>
+<a href="http://leadline.vicp.cc/html/huibranch/index.html">分荟</a>
+<a href="http://leadline.vicp.cc/html/offlineappointment/index.html">线下约见</a>
+<a href="http://leadline.vicp.cc/html/offlinecourse/index.html">线下实训</a>
+<a href="http://leadline.vicp.cc/html/onlineconsult/index.html">线上咨询</a>
+<a href="http://leadline.vicp.cc/html/onlinecourse/index.html">线上课程</a>
+
+
+
+假日阳光：
+憨熊旅游 公众号
+后台地址： http://jryg.server184.51scmb.com/admin/public/login.html  
+商家后台：http://jryg.server184.51scmb.com/business 
+账户：holidaySunshine
+密码：123456
+
+问题解答：
+1、商品修改了之后，是否该商品的库存要清零？
+2、修改商品是否可以修改分销商提成
+
+3、后台-财务管理-订单统计：同一个商品，普通商品名和活动商品名是否要分开显示？怎么计算被分享次数？
+4、后台-订单管理：订单详情页面的商品名，活动商品与普通商品分开显示？
+5、后台-订单管理：如果商品不是酒店房间，详情页面内容该怎么显示？
+6、后台-订单管理：怎么判断订单是否过期？订单详情暂未测试
+7、补差怎么设置？
+8、后台-活动管理：原型中说的开始时间即为上架时间，结束时间即为下架时间？
+9、后台-活动管理：添加页面的过期时间与使用时间区别
+10、微信-短信：下单预定了旅游活动商品，用户没有接收到预约码短信，是否需要接收该短信？
+11、后台-活动管理：同一商品是否可以参加多个活动？
+12、搜索结果页面只显示抢购预告的活动商品？
+13、客户想取消核销流程，微信端已完成订单详情是否需要显示核销时间？
+14、商家后台：预约详情，活动商品名称显示为普通商品？
+15、财务列表-销售统计：是否为实时统计
+测试页面：景点门票
+
+
+
+
+帮帮我
+https://bbw1.server.ehecd.com/Admin 
+admin    123456
+
+
+秉承：
+测试地址
+充值系统：http://47.97.9.8:480/Admin/User/Login 
+admin  123456
+服务商系统：http://47.97.9.8:480/Service/User/Login 
+财务系统：http://47.97.9.8:481/User/Login 
+18782999221		999221
+商城系统：http://47.97.9.8:482/Admin/User/Login 
+商家后台：http://47.97.9.8:482/Seller/User/Login
+admin	123456
+
+进度：修改密码
+
+成航：
+后台:http://chenghang.server.ehecd.com/admin 
+
+账户：admin 密码：123456
+
+
+
+安达巴士：
+后台：http://adbs.88888805.ehecd.com/Admin/Home
+admin
+123456
+微信端：亿合电子
+
+进度：直通车/惠玩派单
+
+
+E管家：
+后台地址：https://emanager.ehecd.com/Admin/home 
+
+用户名 admin,密码123456
+
+
+服务商测试地址
+充值系统：http://101.37.20.178:333/Admin/Home 
+
+  admin  123456
+服务商系统：http://101.37.20.178:333/Service/User/Login 
+
+财务系统：http://101.37.20.178:335/Home 
+
+财务账号:13880422367
+
+
+鼎发食品APP：
+后台
+http://dingfa.server.ehecd.com/Admin 
+进度：更改客户状态
+
+admin,123456
+
+http://dingfa.server.ehecd.com 
+
+http://dingfa.server.ehecd.com/Salesman 
+
+18782085649 经销商 123456
+18782085640 员工 123456
+
+
+
+鲜果乐园
+后台：http://xgly.server75.ehecd.com/adminlogin 
+
+  账号 admin 密码 123456
+前台关注 '亿合软件'
+
+注：  logo   和   加载效果图  不要测
+
+充值系统测试环境
+
+http://101.37.20.178:333/Admin/Home   admin bclm666
+测试后台
+http://101.37.20.178:909/admin/User/Login
+admin  123456
+测试商家
+http://101.37.20.178:909/Seller/User/Login
+18828047890  123456
+ 
+快递单号：中通 452588847133  圆通 885946484107408381
+
+
+
+成都铁路局计量所
+后台：http://rail.server74.ehecd.com/Admin/Home/Login 
+
+账号和密码：leadline 123456 前端关注 “成都铁路局计量所” 微信号
+
+九天家私商城
+后台：http://jiutian.server75.ehecd.com/Admin/Home 
+
+测试账号/密码：admin/123456
+
+前端：会员管理（测试位置）
+
+
+豆蕊米手机端：
+后台前端测试地址：http://drmtest.ehecd.com/MobileAdmin/Home 
+
+账号：drmshanxi
+密码：123456
+前端：http://drmtest.ehecd.com/ 
+
+
+橡国筑家：
+后台：http://xgzjtest.server74.ehecd.com/   admin  123456
+PC端：http://xgzjtest.server74.ehecd.com/pc/home.html
+
+
+墨尔文：
+http://mew.server.ehecd.com/Admin/Index/index
+admin   123456
+
+
+约霸APP：
+http://yueba.88888805.ehecd.com/admin/home
+admin  123456
+
+百维房产：
+http://test.sctshd.com/index.php/Admin
+adminTest
+123456 后台的
+
+
+微彩平台后台：http://lottery.server75.ehecd.com/Admin/Home
+测试账号/密码：admin/123456
+
+用户端：http://lottery.server75.ehecd.com/WechatLogin.ashx
+店铺端：http://lottery.server75.ehecd.com/Mobile/Shop/login.html
+店铺端测试账号密码：13800138000/123456
+关注微信公众号：四川华成微彩科技有限公司
+
+
+
+
+
+剪刀侠二期：
+http://jdx2.server.ehecd.com/Admin 后台  账号admin  密码123456
+公众号 亿合商务 
+
+
+后台地址：http://www.andthink.cn/labor/admin/login/index.html
+账号：admin，密码：admin
+微信访问：http://www.andthink.cn/labor/wx/enter/login
+PC端：http://www.andthink.cn/labor/index/index/index
+
+
+阿玛尼项目可以进行验收工作了：
+总后台地址
+https://weixinapp.cdtuohang.com
+店铺后台地址
+https://weixinapp.cdtuohang.com/Shop
+admin   admin
+
+
+
+太平洋还是亿合商城公众号，http://yanglin.iok.la/Admin/    admin  123456
+http://yanglin.51vip.biz
+
+
+
+
+问题：
+1、同一作者的同一作品是否可以投稿给同一制片方的不同征稿？（目前可以）
+2、同一制片方的不同征稿中的同一作品是否可以重复向该作者提交申请？（目前不可以）
+3、首页-推荐：推荐内容在首页有没有显示上限？（目前是后台设置多少就展示多少）
+4、首页-合作伙伴：是否可以循环左右点击，最后一个是点击下一个则显示第一个伙伴？（目前不可以）
+5、制片方-个人中心：最近关注是怎么排序？（建议以关注时间倒序）
+6、制片方-我的关注：查看征稿列表中的征稿要包含已经结束的征稿吗？（目前不包含）
+7、关注列表中的一周内上传XX件作品，是指后台通过审核数量的统计？
+
+
+秉承联盟：
+有道云协作，客户交流群
+https://note.youdao.com/group/#/52496328/(full:setting/members)
+
+充值PC端：http://101.37.20.178:333/
+充值后台：http://101.37.20.178:333/Admin/User/Login
+
+财务：http://101.37.20.178:335/User/Login
+
+模板商城：http://101.37.20.178:334/AdminLogin
+
+拇指支付：
+http://101.37.20.178:333/pc/home/test
+170602105101493
+
+170602105056640
+
+
+
+http://tymp.server75.ehecd.com/www/goods/detail.html?id=1a37ca10-ab94-c2e3-32d1-08d40d2e5ec1
+http://tymp.server75.ehecd.com/www/goods/detail.html?id=c4c80001-8288-c25d-5bbb-08d40d2fcfa8
+
+
+正式地址
+充值系统：http://www.muzhixilian.com/
+模板商城：http://101.37.20.178:808/www/index.html
+财务系统：http://101.37.20.178:1188
+
+外网测试地址
+充值系统：http://101.37.20.178:333/
+模板商城：http://101.37.20.178:334/www/index.html
+财务系统：http://101.37.20.178:335
+
+
+100元充值卡，充一百送一百，或送90个乐享券。
+
+
+
+老司机外卖：
+测试地址：
+http://192.168.1.5:8077/Admin/User/Login
+
+花生壳已绑定到亚马逊服务器了http://sd797994.oicp.net/Mobile/Home/Index
+后台管理还是可以用
+http://www.laosijisongcan.com/Admin/Home
+或
+http://sd797994.oicp.net/Admin/Home
+数据源是相同的
+
+IP是23.106.153.114
+端口：9191
+密码：666666
+加密：aes-256-cfb 
+
+
+
+测试支付宝
+14528098329
+ehecd2012
+支付密码201608
+
+
+
+测试微信号：
+2106354045（test哈哈名字很长很长）/3065296854(testmz)/3011812275（ip6)
+苹果手机iTunes store appleID及密码：hxf925669740@163.com  2008323hxF
+
+1、江浙沪地区每单8元。
+2、其他地区每单20元。
+2、A、根据每单商品的总重量和体积进行计算，超出重量或体积需要补交快递费。
+2、B、（如果你卖的产品是包邮的话，请说明。）
+3、本店合作快递**快递，如需要其他快递服务，请说明。
+4、如果商品自身存在问题，本店包邮退换。
+5、如果买家误拍商品而需要退换货，则买家需要承担来回运费。
+
+http://player.youku.com/embed/XMTc3MTQ4ODg0OA==
+http://player.youku.com/embed/XMTc3MjkxOTYyMA==
+
+
+对参赛选手来说，奥运金牌不只是一份荣誉，随之而来的还有经济奖励，一块奥运金牌能为运动员带来多少奖金呢？新加坡为奥运金牌拍出了约合563万元人民币的高额奖金，而中国为每块金牌提供的奖励是20万元人民币，是排名倒数第四少的国家，尤其相比伦敦奥运会时开出的50万元“巨奖”，里约金牌“贬值”了不少。
+小国“慷慨”大国“抠门”
+奥运金牌在哪里最值钱？在从没有得过金牌的国家最值钱！新加坡为奥运金牌获得者开出了约合人民币563万元的奖励高居奖金榜榜首，而巨奖政策收到奇效，该国选手斯库林在100米蝶泳比赛中击败菲尔普斯获得冠军，并打破了奥运会纪录，新加坡首枚奥运金牌终于“开张”。这枚金牌无疑能让斯库林“名利双收”，一战成名成为人生赢家。前五位中还有阿塞拜疆、印尼、泰国、希腊。可以看出，排名前五的国家均为发展中国家，也是金牌小国，对荣誉的极度渴望让他们相信“重奖之下必有勇夫”。
+相比之下，金牌大国大多“抠门”得多。在奖金最少的国家中，英国是最低的，他们压根没有为金牌开出悬赏，而中国以20万元人民币排名倒数第四。值得注意的是，这只是各国为金牌提供的奖金，并不包含地方政府奖金和其他商业形式奖金。
+奖金缩水给金牌降温
+中国的“金牌观”，经历了从热情追逐到逐渐淡化的演变过程。1984年奥运会，中国的金牌奖励是6000元。为中国射落第一枚奥运金牌的许海峰，作为“特殊贡献运动员”额外奖励9000元，同时工资连升四级，从每月51.5元涨到了每月98元，这些在当时已经是“天文数字”。在国家体育事业起步阶段，奥运金牌的重要性不言而喻。
+
+
+
+APP端：
+1、点击慧金融-社区基金文章的了解更多，无响应
+2、慧管家-燃气费等4个模块点击无响应
+3、慧管家-“社区工作”名称改为“社区工匠”，点击该模块无响应
+4、点击慧公益-社区文化，页面链接为法律咨询援助
+
+海灞王ios8 出错页面
+商家详情、我的商品、本地采购-选商家-分类、本地采购-搜索、购物车、个人资料、我的收藏（商品/商家）
+
+
+
+曾因一个人，熟悉一座城。
+
+又因一个人，不在去那座城。
+
+缤纷的人生，我们走过多少座城，在城中留下过多少脚步，留下过多少回忆。其中，有多少座是因为一个人而去熟悉，而去了解。有时是否会发觉这座陌生的城市，不用刻意去记怎么走，怎么找一个地方。到十字路口，不用去思考，靠着习惯就能知道怎么走。熟悉的甚至超过了自己居住的城市，有人问，你为什么会这样？“因为，城中有她”我说。
+
+有时
+
+
+小海正式后台环境问题汇总：
+1、会员管理-奖励来源：列表中的购买账号显示为空
+2、运费统计导出报黄页错误
+3、站内信详情接受对象显示错误，“评论图片”改为“图片”
+前端：
+1、我的余额：提现图标显示为灰色
+
+
+当您注点击充值时，即表示您同意本用户协议。当本协议有变更时，如若您没有明确明示不接受新协议，邦麦将默认您同意新协议。   一、注册主体  您注册或使用邦麦网站时，您必须确保您已经具有完全民事行为能力，如若您不具备此主体条件，则由您和您的监护人承担因此产生的后果及经济损失，并且邦麦有权暂停或终止您继续使用邦麦的权限。
+     当您注点击充值时，即表示您同意本用户协议。当本协议有变更时，如若您没有明确明示不接受新协议，邦麦将默认您同意新协议。   一、注册主体  您注册或使用邦麦网站时，您必须确保您已经具有完全民事行为能力，如若您不具备此主体条件，则由您和您的监护人承担因此产生的后果及经济损失，并且邦麦有权暂停或终止您继续使用邦麦的权限。
+     当您注点击充值时，即表示您同意本用户协议。当本协议有变更时，如若您没有明确明示不接受新协议，邦麦将默认您同意新协议。   一、注册主体  您注册或使用邦麦网站时，您必须确保您已经具有完全民事行为能力，如若您不具备此主体条件，则由您和您的监护人承担因此产生的后果及经济损失，并且邦麦有权暂停或终止您继续使用邦麦的权限。
+
+拇指囍联财务：
+1、代发款项/代发工资没有明确新建时间及打款状态，不能明确统计款项数据是否与首页吻合
+2、成本损益中的总额统计要分进出账吗？？
+在想一个人的魅力真的很神奇，神奇到足以另一个人心甘情愿，无怨无悔。
+
+
+
+
+
+
+
+

@@ -1,0 +1,126 @@
+<admintpl file="header" />
+<style type="text/css">
+.pic-list li {
+	margin-bottom: 5px;
+}
+</style>
+
+</head>
+<body>
+	<div class="wrap js-check-wrap" id="app">
+		<ul class="nav nav-tabs">
+			<li><a href="{:U('Lcarticle/index')}">流程图文管理</a></li>
+			<li class="active"><a href="javascript:;">编辑</a></li>
+		</ul>
+		<form class="form-horizontal" id="tagforms" method="post" enctype="multipart/form-data">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label" style="font-weight:bold;">
+						<if condition="$info['id'] eq 1">平面图方案阶段</if>
+						<if condition="$info['id'] eq 2">效果图方案阶段</if>
+						<if condition="$info['id'] eq 3">施工图阶段</if>
+					</label>
+					<div class="controls">
+					</div>
+				</div>
+				<div class="control-group" id="concontent">
+					<label class="control-label">内容：</label>
+					<div class="controls" style="width: 800px;">
+						<script type="text/plain" id="content" name="content">{$info.content}</script>
+					</div>
+				</div>
+				
+			</fieldset>
+			<div class="form-actions">
+				<input type="hidden" name="id" value="{$info.id}">
+				<input type="button" @click="add()" class="btn btn-primary" value="保存"/>
+				<a class="btn" href="javascript:history.back(-1);">{:L('BACK')}</a>
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="__PUBLIC__/js/common.js"></script>
+	<script src="__PUBLIC__/js/vue.js"></script>
+	<script src="__PUBLIC__/js/content_addtop.js"></script>
+	<script src="__PUBLIC__/js/define_my.js"></script>
+	<script src="__PUBLIC__/js/artDialog/artDialog.js"></script>
+	<script type="text/javascript">
+		//编辑器路径定义
+		var editorURL = GV.WEB_ROOT;
+	</script>
+	<script type="text/javascript" src="__PUBLIC__/js/ueditor/ueditor.config.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/ueditor/ueditor.all.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			
+			/////---------------------
+			Wind.use('validate', 'ajaxForm', 'artDialog', function() {
+				//javascript
+
+				//编辑器
+				editorcontent = new baidu.editor.ui.Editor();
+				editorcontent.render('content');
+				try {
+					editorcontent.sync();
+				} catch (err) {
+				}
+				//增加编辑器验证规则
+				jQuery.validator.addMethod('editorcontent', function() {
+					try {
+						editorcontent.sync();
+					} catch (err) {
+					}
+					return editorcontent.hasContents();
+				});
+				var form = $('form.js-ajax-forms');
+				//ie处理placeholder提交问题
+				if ($.browser && $.browser.msie) {
+					form.find('[placeholder]').each(function() {
+						var input = $(this);
+						if (input.val() == input.attr('placeholder')) {
+							input.val('');
+						}
+					});
+				}
+
+				var formloading = false;
+				
+			});
+			////-------------------------
+		});
+	</script>
+	<script>
+		var app = new Vue({
+			el:"#app",
+			data:{
+				info:{},				
+			},
+			created:function () {
+			},
+			methods:{
+				add:function () {	
+				     var tagvals=$('#tagforms').serialize();				
+					$.ajax({
+						url:'{:U("Admin/Lcarticle/edit_post")}',
+						data:tagvals,
+						type:"POST",
+						dataType:"json",
+						success:function (res) {							
+							if(res.status==0){
+								$.dialog({id: 'popup', lock: true,icon:"succeed", content: res.msg, time: 2});
+								setInterval(function(){
+									location.href='{:U("Admin/Lcarticle/index")}';
+								},3000)
+							}
+							else {
+								$.dialog({id: 'popup', lock: true,icon:"warning", content: res.msg, time: 2});
+							}
+						}
+
+					})
+				}
+			}
+		});	
+
+	</script>
+</body>
+</html>

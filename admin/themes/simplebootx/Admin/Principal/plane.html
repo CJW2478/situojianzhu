@@ -1,0 +1,186 @@
+<admintpl file="header" />
+</head>
+<body>
+<div class="wrap js-check-wrap">
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="javascript:;">负责人</a></li>
+	</ul>
+	<form class="well form-search" method="post" action="{:U('Principal/index')}">
+		项目：
+		<select name="project_id" id="select" style="width: 150px;" onchange="dochangetype()">
+			<if condition="count($project_ids) neq 0">
+			<foreach name="project_ids" item="vo">
+				<php>$selected=$project_id==$vo['id']?"selected":"";</php>
+				<option value="{$vo.id}" {$selected}>{$vo.project_name}</option>
+			</foreach> 
+			<else/>
+			<option>暂未分配项目</option>
+			</if>
+		</select>
+	</form>
+	<ul class="nav nav-tabs pointUl">
+		<li><a href="{:U('Principal/index',array('project_id'=>$project['id']))}">人员分配审核<if condition="$sign.solutions_unaudit gt 0 "><span class="pointred">.</span></if></a></li>
+		<li><a href="{:U('Principal/audit',array('project_id'=>$project['id']))}">人员分配列表<if condition="$sign.solutions gt 0"><span class="pointred">.</span></if></a></li>
+		<li class="active"><a href="{:U('Principal/plane',array('project_id'=>$project['id']))}">平面图方案阶段方案确认</a></li>
+		<li><a href="{:U('Principal/effect',array('project_id'=>$project['id']))}">效果图方案阶段方案确认<if condition="$sign.effect_first gt 0 || $sign.effect_final gt 0 || $sign.effect_scheme gt 0 "><span class="pointred">.</span></if></a></li>
+		<li><a href="{:U('Principal/work',array('project_id'=>$project['id']))}">施工图方案阶段方案确认<if condition="$sign.work_first gt 0"><span class="pointred">.</span></if></a></li>
+	</ul>
+	<form class="form-horizontal" id="tagforms" method="post" enctype="multipart/form-data">
+		<fieldset>
+			<div class="control-group" style="margin-bottom: 0px;">
+				<label class="control-label">项目名称：</label>
+				<div class="controls" style="margin-top: 5px;">
+					<label>{$project.project_name}</label>
+				</div>
+			</div>
+			<div class="control-group" style="margin-bottom: 0px;">
+				<label class="control-label">项目编号：</label>
+				<div class="controls" style="margin-top: 5px;">
+					<label>{$project.project_no}</label>
+				</div>
+			</div>
+			<div class="control-group" style="margin-bottom: 0px;">
+				<label class="control-label" style="margin-left: 55px;">甲方负责人基本信息</label>
+			</div>
+			<table class="table table-hover table-bordered" style="width: 800px;margin-left:90px;">
+				<thead>
+				<tr>
+					<th style="text-align: center;">姓名</th>
+					<th style="text-align: center;">联系方式</th>
+					<th style="text-align: center;">职务</th>
+					<th style="text-align: center;">qq号</th>
+					<th style="text-align: center;">微信号</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td style="text-align: center;">{$project.principal_name}</td>
+					<td style="text-align: center;">{$project.mobile}</td>
+					<td style="text-align: center;">{$project.duty}</td>
+					<td style="text-align: center;">{$project.qq}</td>
+					<td style="text-align: center;">{$project.wx}</td>
+				</tr>
+				</tbody>
+			</table>
+			<div class="control-group" style="margin-bottom: 0px;">
+				<label class="control-label" style="margin-left: 80px;width: 220px">规划、指标测算、设计方案确认：</label>
+			</div>
+			<table class="table table-hover table-bordered" style="width: 800px;margin-left:90px;">
+				<thead>
+				<tr>
+					<th style="text-align: center;">上传时间</th>					
+					<th style="text-align: center;">文件名</th>
+					<th style="text-align: center;">上传人姓名</th>
+					<th style="text-align: center;">状态</th>
+					<th style="text-align: center;">操作</th>
+				</tr>
+				</thead>
+				<tbody>
+				<volist name="scheme_data" id="val">
+					<tr>
+						<td style="text-align: center;">{$val.create_time|date='Y-m-d H:i:s',###}</td>					
+						<td style="text-align: center;">{$val.file_name}</td>
+						<td style="text-align: center;">{$val.user_name}</td>
+						<if condition="$val['status']==0">
+							<td style="text-align: center;">已确认</td>
+						<else />
+							<td style="text-align: center;color: red">未处理</td>
+						</if>
+						<td style="text-align: center;">
+							<a href="{:U('Principal/downloadgg',array('id'=>$val['id']))}" class="btn" style="background:#1abc9c">下载</a>
+							<if condition="$val['status']==1">
+								<a onclick="change_status('{$val.id}','{$project_id}',5)" class="btn" style="background:#1abc9c">确认</a>
+								<else/>
+								<a class="btn" style="background:grey;cursor: default" href ="javascript:return false;" onclick="return false;"  >已确认</a>
+							</if>
+						</td>
+					</tr>
+				</volist>
+				<if condition="count($scheme_data) eq 0">
+					<tr><td colspan="4" style="text-align: center;">暂无资料信息</td>
+					</tr>
+				</if>
+				</tbody>
+			</table>
+			<div class="pagination" style="margin-left: 90px">{$scheme_page}</div>
+
+			<div class="control-group" style="margin-bottom: 0px;">
+				<label class="control-label" style="margin-left: 55px;">平面规划方案确认：</label>
+			</div>
+			<table class="table table-hover table-bordered" style="width: 800px;margin-left:90px;">
+				<thead>
+				<tr>
+					<th style="text-align: center;">上传时间</th>					
+					<th style="text-align: center;">文件名</th>
+					<th style="text-align: center;">上传人姓名</th>
+					<th style="text-align: center;">状态</th>
+					<th style="text-align: center;">操作</th>
+				</tr>
+				</thead>
+				<tbody>
+				<volist name="plane_data" id="val">
+					<tr>
+						<td style="text-align: center;">{$val.create_time|date='Y-m-d H:i:s',###}</td>						
+						<td style="text-align: center;">{$val.file_name}</td>
+						<td style="text-align: center;">{$val.user_name}</td>
+						<if condition="$val['status']==0">
+							<td style="text-align: center;">已确认</td>
+							<else />
+							<td style="text-align: center;color: red">未处理</td>
+						</if>
+						<td style="text-align: center;">
+							<a href="{:U('Principal/downloadgg',array('id'=>$val['id']))}" class="btn" style="background:#1abc9c">下载</a>
+							<if condition="$val['status']==1">
+								<a onclick="change_status('{$val.id}','{$project_id}',9)" class="btn" style="background:#1abc9c">确认</a>
+								<else/>
+								<a class="btn" style="background:grey;cursor: default" href ="javascript:return false;" onclick="return false;"  >已确认</a>
+							</if>
+						</td>
+					</tr>
+				</volist>
+				<if condition="count($plane_data) eq 0">
+					<tr><td colspan="4" style="text-align: center;">暂无资料信息</td>
+					</tr>
+				</if>
+				</tbody>
+			</table>
+			<div class="pagination" style="margin-left: 90px">{$plane_page}</div>
+		</fieldset>
+	</form>
+</div>
+<script src="__PUBLIC__/js/common.js"></script>
+<script src="__PUBLIC__/js/artDialog/artDialog.js"></script>
+<script type="text/javascript">
+    function  dochangetype()
+    {
+        document.all.formgetstr.submit();
+    }
+
+    var select = document.getElementById('select');
+    select.onchange = function(){
+        var val = this.value;
+        location.href = '{:U("Principal/index")}'+'&project_id='+val;
+    };
+
+    function change_status(id,project_id,step) {
+		$.ajax({
+            url:'{:U("Principal/confirm_upload_data")}',
+            data:{id:id,status:0,project_id:project_id,step:step},
+            type:"POST",
+            dataType:"json",
+            success:function (res) {
+                if(res.status == 0){
+                    $.dialog({id: 'popup', lock: true,icon:"succeed", content: res.msg, time: 2});
+                    setInterval(function(){
+                        location.href='{:U("Principal/plane")}'+"&project_id="+project_id;
+                    },3000)
+                }
+                else {
+                    $.dialog({id: 'popup', lock: true,icon:"warning", content: res.msg, time: 2});
+                }
+            }
+		})
+    }
+</script>
+</body>
+</html>

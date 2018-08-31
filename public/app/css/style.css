@@ -1,0 +1,87 @@
+
+
+body .weui-toast{ min-height: auto; margin-left: auto; margin-right: auto; width:-webkit-max-content;width: max-content; min-width: 7.6rem; max-width: 20rem;}
+body .weui-toast>p{ color: #fff;}
+
+
+.mainSec{ padding: 10px;}
+.callService{ display:inline-block; position: fixed; bottom: 20%; right: 10px; width: 4rem; height: 4rem; background: url(../img/xuanfu@2x.png) no-repeat; background-size: contain; z-index: 999;}
+.meng{ position: fixed; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,.2);}
+.callBox .content{ position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); background: #fff; border-radius: 5px; min-width: 70%;}
+.callBox .content>p{ text-align: center; padding: 2.5rem 1.5rem; color: #2e2e2e;}
+.callBox .content .btnBox{ border-top: 1px solid #eee;}
+.callBox .content .btnBox>a{ position: relative; text-align: center; padding: 1rem 0;}
+.callBox .content .btnBox .cancel:after{position: absolute; right: 0; top: 0; bottom: 0; width: 1px; background: #eee; content: "";}
+.callBox .content .btnBox .sure{ color: #3179fc;}
+
+
+/*流程展示*/
+/*.mainSec .tabs{ overflow: hidden;}*/
+.mainSec .tabs>div{ float: left; width: 31%; margin-right: 10px; text-align: center;background: #eee; border-radius: 50px;height:3rem; line-height:3.2rem; color: #666;}
+.mainSec .tabs>div:last-child{ margin: 0;}
+.mainSec .tabs>div.active{ color: #fff; background: #3179fc; box-shadow: 0 2px 10px rgba(49,121,252,.7);}
+
+.mainSec p img{width: 100%}
+
+/*项目选择*/
+.xmList li{ padding: 1.2rem 0; background: url(../img/bg.png) no-repeat right; background-size: contain; border-top: 1px solid #eee;  border-radius: 10px; box-shadow: 0 5px 10px rgba(0,0,0,.3);position: relative; overflow: hidden; color: #000; margin-bottom: 1.5rem;}
+.xmList li .check{ position: absolute; top: 0; left: 0; background: url(../img/weixuanzhong@2x.png) #3179fc no-repeat center; background-size: 1.7rem; border-radius: 0 50px 50px 0; padding: 1.3rem 2.3rem;}
+.xmList li.active .check{ background: url(../img/xuanzhong@2x.png) #3179fc no-repeat center; background-size: 1.7rem;}
+
+
+/*进度展示*/
+/*banner*/
+.banner{ position: relative; box-shadow:  0 5px 10px rgba(0,0,0,.2);}
+.banner .jiaji{ position: absolute; top: 10px; right: 10px; width: 3.2rem; height: 3.2rem; line-height: 3.4rem; text-align: center; border-radius: 50%; color: #fff; background: #3179fc; box-shadow: 0 5px 15px rgba(49,121,252,.5);}
+.banner .jiaji.active{ background: #ccc; box-shadow: 0 5px 15px rgba(0,0,0,.3);}
+.banner .projectInfo{ position: absolute; bottom: 1rem; left: 1rem;}
+.banner .projectInfo>p{ color: #fff; line-height: 1.5rem;}
+.banner .projectInfo .tit{ font-size: 17px; font-weight: bold; margin-bottom: .5rem;}
+
+/*contactBox*/
+.contactBox{ padding-bottom: 2.3rem; height:10.3rem;position:relative}
+.contactBox:after,.speedbox:after{ position: absolute; bottom: 0; left: -10px; right: -10px; height: 8px; background: #f2f5fa; content: "";}
+.contactBox>div{ border-top: 1px solid #eee; box-shadow: 0 5px 10px rgba(0,0,0,.3); border-radius: 5px; position: relative; height:8rem;}
+.contactBox>div:first-child{ margin-right: 10px; min-width: 40%;}
+/*.contactBox .tableBox{ display:table;vertical-align:middle; height:100%; height:8rem; width:100%; text-align:center}
+.contactBox .tableBox .contentBox{ display:table-cell; vertical-align:middle}*/
+.contactBox .contentBox{ position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); width: fit-content;}
+.contactBox .contentBox .jianli{ color: #3179fc;}
+.contactBox .contentBox img{ width: 25px; vertical-align: top; margin-left: 10px;}
+.contactBox .contentBox>p{ color: #666; line-height: 1.5rem;}
+.contactBox .contentBox .names{ color: #000; font-size: 17px;}
+
+/*speedBox*/
+.speedbox,.listBox{ padding: 1rem 0 2rem; position: relative;}
+.speedbox .tit,.listBox .tit{ color: #000; font-size: 17px; position: relative; padding-left: 10px; margin-bottom: 10px;}
+.speedbox .tit:before,.listBox .tit:before{ position: absolute; left: 0; top: 6px; bottom: 4px; width: 3px; background: #3179fc;content: ""; border-radius: 50px;}
+.speedbox .slideBox li{ border-radius: 10px; background: #ccc; box-shadow: 0 3px 10px rgba(0,0,0,.2); text-align: center; height:5.5rem; display:table;padding:10px}
+.speedbox .slideBox li.active{ background: -webkit-linear-gradient(left, #3179fc , #2fe5fd); box-shadow: 0 3px 10px rgba(48,163,252,.4);}
+.speedbox .slideBox li>p{ color:#fff; display:table-cell; vertical-align:middle;}
+
+/*chartBox*/
+.speedbox .chartBox{  width: 100%;white-space: nowrap; overflow-y: hidden;  overflow-x: scroll; display: flex;}
+.speedbox .chartBox .chartItem{ flex: 1; min-width: 100px;  color: #555;  font-size: 14px; text-align: center;max-width: 100px;}
+.speedbox .chartBox .chartItem .calls{ width: 100%;height:2rem; background: url(../img/xiaoboda@2x.png) no-repeat center; background-size: 20px;}
+.speedbox .chartBox .chartItem .calls2{ width: 100%;height:2rem; background-size: 20px;}
+.speedbox .chartBox .chartItem .chart{ width: 100%; height: 100px;}
+.speedbox .chartBox .chartItem .texts{ color: #666; text-decoration: underline; max-width: 100%; word-wrap: break-word; word-break: break-all;white-space:normal;padding: 0 5px;}
+.speedbox .chartBox .chartItem:first-child .calls{ background: none;}
+.speedbox .chartBox .chartItem:first-child .texts{ color: #000; text-decoration: none;}
+.speedContent{ position: fixed; display: flex; left: 50%; top: 50%; transform: translate(-50%,-50%); background: #fff; border-radius: 5px; padding: 1rem; z-index: 9999; width: 80%; max-width: 80%; max-height: 70%;}
+.speedContent .desc{ position: relative; left: 0; bottom: 0; right: 0; top: 0; overflow: scroll;}
+.speedContent .close{ padding: 1rem; background: url(../img/shanchu@2x.png) no-repeat center; background-size: 25px; position: absolute; top: -10px; right: -10px;}
+
+
+/*listBox*/
+.xmList li .yulan{ position: absolute; top: 0; left: 0; background: #3179fc; background-size: 1.7rem; border-radius: 0 50px 50px 0; padding: .3rem 1.2rem; color: #fff; font-size: 1.2rem;}
+
+
+
+
+
+
+
+
+
+

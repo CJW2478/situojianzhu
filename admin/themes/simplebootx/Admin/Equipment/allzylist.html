@@ -1,0 +1,108 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="javascript:;">设备专业</a></li>
+		</ul>
+		<form class="well form-search" method="post" action="{:U('Equipment/index')}">	
+			项目： 
+			<select name="project_id" style="width: 150px;" onchange="dochangetype(this.value)">
+                <if condition="count($project) neq 0">
+                <volist name="project" id="va">
+                <option value="{$va.id}" <if condition="$formget['project_id'] eq $va['id']">selected</if>>{$va.project_name}</option>   
+                </volist>  
+				<else/>
+				<option>暂未分配项目</option>
+				</if>                         
+            </select>
+		</form>
+		<ul class="nav nav-tabs pointUl">
+			<li><a href="{:U('Equipment/index',array('project_id'=>$info['id']))}">平面图</a></li>
+			<li><a href="{:U('Equipment/zyinfolist',array('project_id'=>$info['id']))}">各专业条件图<if condition="$zyncount gt 0"><span class="pointred">.</span></if></a></li>
+			<li><a href="{:U('Equipment/bzysglist',array('project_id'=>$info['id']))}">本专业施工图</a></li>
+			<li><a href="{:U('Equipment/nbmessagelist',array('project_id'=>$info['id']))}">施工图审查意见（内审、外审）<if condition="$nbncount gt 0"><span class="pointred">.</span></if></a></li>
+			<li><a href="{:U('Equipment/doinglist',array('project_id'=>$info['id']))}">进度动态</a></li>
+			<li class="active"><a href="{:U('Equipment/allzylist',array('project_id'=>$info['id']))}">各专业人员基本信息</a></li>
+		</ul>
+		<form class="form-horizontal" id="tagforms" method="post" enctype="multipart/form-data">
+		<fieldset>
+			<div class="control-group" style="margin-bottom: 0px;">
+					<label class="control-label">项目名称：</label>
+					<div class="controls" style="margin-top: 5px;">
+						<label>{$info.project_name}</label>
+					</div>
+			</div>
+			<div class="control-group" style="margin-bottom: 0px;">
+					<label class="control-label">项目编号：</label>
+					<div class="controls" style="margin-top: 5px;">
+						<label>{$info.project_no}</label>
+					</div>
+			</div>
+			<div class="control-group" style="margin-bottom: 0px;">
+					<label class="control-label" style="margin-left: 55px;">甲方负责人基本信息</label>
+			</div>
+			<table class="table table-hover table-bordered" style="width: 800px;margin-left:90px;">
+				<thead>
+					<tr>
+						<th style="text-align: center;">姓名</th>
+						<th style="text-align: center;">联系方式</th>
+						<th style="text-align: center;">职务</th>
+						<th style="text-align: center;">qq号</th>
+						<th style="text-align: center;">微信号</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td style="text-align: center;">{$info.principal_name}</td>
+						<td style="text-align: center;">{$info.mobile}</td>
+						<td style="text-align: center;">{$info.duty}</td>
+						<td style="text-align: center;">{$info.qq}</td>
+						<td style="text-align: center;">{$info.wx}</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="control-group" style="margin-bottom: 0px;">
+					<label class="control-label" style="margin-left: 55px;">各专业人员基本信息</label>
+			</div>
+			<table class="table table-hover table-bordered" style="width: 800px;margin-left:90px;">
+				<thead>
+					<tr>
+						<th style="text-align: center;">角色</th>
+						<th style="text-align: center;">姓名</th>
+						<th style="text-align: center;">电话</th>
+						<th style="text-align: center;">职务</th>
+						<th style="text-align: center;">qq号</th>
+						<th style="text-align: center;">微信号</th>
+					</tr>
+				</thead>
+				<tbody>
+					<volist name="zyall" id="val">
+					<tr>
+						<td style="text-align: center;">{$val.role_name}</td>
+						<td style="text-align: center;">{$val.user_name}</td>
+						<td style="text-align: center;">{$val.mobile}</td>
+						<td style="text-align: center;">{$val.user_duty}</td>
+						<td style="text-align: center;">{$val.qq_no}</td>
+						<td style="text-align: center;">{$val.wx_no}</td>
+					</tr>
+					</volist>
+					<if condition="count($zyall) eq 0">
+					<tr><td colspan="6" style="text-align: center;">暂无专业人员信息</td>
+					</tr>
+					</if>
+				</tbody>
+			</table>
+			<div class="pagination" style="margin-left: 90px;">{$page}</div>
+		</fieldset>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>	
+	<script type="text/javascript">
+	function  dochangetype(val)
+	{
+		location.href = '{:U("Equipment/index")}'+'&project_id='+val;
+	}
+	</script>
+</body>
+</html>

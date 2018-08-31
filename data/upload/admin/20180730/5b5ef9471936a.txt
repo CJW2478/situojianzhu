@@ -1,0 +1,33 @@
+sql server  操作表
+
+1、如果还没有创建表table2，可以直接将table1的表结构和记录都复制到数据库b中
+
+USE [KDDB]
+GO
+
+select * into [KDDB].[dbo].[users] from sims3.dbo.users
+
+
+2、sql 命令
+
+--如果经常访问或数据量大,建议用链接服务器--创建链接服务器
+exec sp_addlinkedserver 'srv_lnk','','SQLOLEDB','39.104.172.9'
+exec sp_addlinkedsrvlogin 'srv_lnk','false',null,'sa','Test1234' 
+go
+
+--查询示例：
+--select * from srv_lnk.KDDB.dbo.kd_room
+
+--导入示例：
+insert into  srv_lnk.KDDB.dbo.kd_room (xiaoqu,xiaoqu_id,loudong,loudong_id,room,room_id,usedAmp,allAmp,updateflag,loaddatetime,sid) 
+select xiaoqu,xiaoqu_id,loudong,loudong_id,room,room_id,usedAmp,allAmp,updateflag,loaddatetime,3 from Test.dbo.kd_room
+
+insert into  srv_lnk.KDDB.dbo.kd_elec (ElecDate,XiaoQu_ID,Room_ID,UsedAmp,AllAmp,sid) 
+select ElecDate,XiaoQu_ID,Room_ID,UsedAmp,AllAmp,3 from Test.dbo.kd_elec
+
+insert into  srv_lnk.KDDB.dbo.kd_his (rec_no,buyer_id,xiaoqu_id,room_id,tranamt,endatatime,custsn,getTime,sendTime,sid) 
+select rec_no,buyer_id,xiaoqu_id,room_id,tranamt,endatatime,custsn,getTime,sendTime,3 from Test.dbo.kd_his
+go  --以后不再使用时删除链接服务器
+
+3、取某年的数据
+select * from [dbo].[kd_room] where YEAR(loaddatetime) =2017 

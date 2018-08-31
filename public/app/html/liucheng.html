@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+	    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+	    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+		<title>流程展示</title>
+	    <link rel="stylesheet" href="../lib/weui/jquery-weui.css" />
+	    <link rel="stylesheet" href="../lib/weui/weui.min.css" />
+	    <link rel="stylesheet" href="../lib/swiper/swiper.min.css" />
+	    <link rel="stylesheet" href="../css/public.css" />
+	    <link rel="stylesheet" href="../css/style.css" />
+	    <script type="text/javascript" src="../lib/jq/jquery-1.10.2.js" ></script>
+	    <script type="text/javascript" src="../lib/weui/jquery-weui.js" ></script>
+	    <script type="text/javascript" src="../js/v.min.js" ></script>
+	    <script type="text/javascript" src="../js/common.js" ></script>
+	</head>
+	<body>
+		<section class="mainSec" id="app">
+			<div class="tabs clearfix">
+				<div class="active" @click="tabsFn($event,1)">平面图方案阶段</div>
+				<div @click="tabsFn($event,2)">效果图方案阶段</div>
+				<div @click="tabsFn($event,3)">施工图方案阶段</div>
+			</div>
+			<div class="pt2rem">
+				<p class="pb1rem">中国古代建筑具有朴素淡雅的风格，主要以茅草、木材为建筑材料，以木架构为结构方式（柱、梁、枋、檩、椽等构件），按照结构需要的实际大小、形状和间距组合在一起。这种建筑结构方式反映了古代宗法社会结构的清晰、有序和稳定。
+，古代建筑便巧妙地利用外埠自然空间，组成庭院。庭院是建筑的基本单位，它既是封闭的，又是开放的；既是人工的，又是自然的，可以俯植花草树木，仰观风云日月，成为古人“天人合一”观念的又一表现，也体现了中国人既含蓄内向，又开拓进取的民族性格。古代稍大一些的建筑都是由若干个庭院组成的建筑群，单个建筑物和庭院沿一定走向布置，有主有次，有高潮有过渡，成为有层次、有深度的空间，呈现出一种中国人所追求的整体美和深邃美。其中宫殿、寺庙一类比较庄严的建筑，往往沿着中轴线一个接一个地纵向布置主要建筑物，两侧对称的布置次要建筑物，布局平衡舒展，引人入胜。</p>
+				<img src="../img/img.png" width="100%" />
+			</div>
+			<div class="callService" @click="call(this,mobile)"></div>
+		</section>
+		
+	</body>
+</html>
+<script>
+	var app = new Vue({
+		el:'#app',
+		data:{
+			mobile:'18725950959'
+		},
+		methods:{
+			tabsFn:function(evt){
+				var self=this;
+				$(evt.target).addClass('active').siblings().removeClass('active');
+			}
+		}
+	})
+</script>
+
+
+
+
+

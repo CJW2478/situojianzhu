@@ -1,0 +1,14 @@
+array (
+  'file' => 
+  array (
+    'name' => '壳米微信验收报告1.0.docx',
+    'type' => 'application/zip',
+    'size' => 14857,
+    'key' => 'file',
+    'ext' => 'docx',
+    'md5' => 'a945ceedb8d2a03d48837f966da96df5',
+    'sha1' => '04b08c2c47fcc34306a17d0abdc1bb5358bcff49',
+    'savename' => '5b84f1724663e.docx',
+    'savepath' => 'admin/20180828/',
+  ),
+)

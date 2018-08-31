@@ -1,0 +1,42 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="{:U('rbac/index')}">角色管理</a></li>
+			<li><a href="{:U('rbac/roleadd')}">角色添加</a></li>
+		</ul>
+		<form action="{:U('Rbac/listorders')}" method="post">
+			<table class="table table-hover table-bordered">
+				<thead>
+					<tr>
+						
+						<th style="text-align:center;min-width:100px;">{:L('ROLE_NAME')}</th>					
+						<th style="text-align:center;min-width:80px;">添加时间</th>
+						<th style="text-align:center;">{:L('ACTIONS')}</th>
+					</tr>
+				</thead>
+				<tbody>
+					<foreach name="roles" item="vo">
+					<if condition="$vo['id'] neq 1">
+					<tr>						
+						<td style="text-align:center;">{$vo.name}</td>						
+						<td style="text-align:center;">{$vo.create_time|date='Y-m-d H:i:s',###}
+						</td>
+						<td style="text-align:center;">	
+							<if condition="$vo['id'] gt 12">
+							<a href="{:U('Rbac/authorize',array('id'=>$vo['id']))}" class="btn btn-primary" style="padding: 2px 15px;color: white;background-color: #1dccaa;">{:L('ROLE_SETTING')}</a>
+							<a href="{:U('Rbac/roleedit',array('id'=>$vo['id']))}" class="btn btn-primary" style="padding: 2px 15px;color: white;background-color: #1dccaa;">{:L('EDIT')}</a>
+							<a class="btn btn-primary js-ajax-delete" href="{:U('Rbac/roledelete',array('id'=>$vo['id']))}" style="padding: 2px 15px;color: white;background-color: #1dccaa;">{:L('DELETE')}</a>
+							</if>							
+						</td>
+					</tr>
+					</if>
+					</foreach>
+				</tbody>
+			</table>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>
