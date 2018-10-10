@@ -299,10 +299,14 @@ class PlaneController extends AdminbaseController
         {
             
             $pdata =I('post.');
-      
             $pdata['adminid'] = session('ADMIN_ID');
             $pdata['createtime'] =time();
             $pdata['atype'] = 2;
+            if(!isset($pdata['filename'])||empty($pdata['filename'])){
+                $pdata['filename']='网络文件';
+                $pdata['urldata']=str_replace('./data/upload/','',$pdata['urldata']);
+            }
+
             $lastid=M('uploadgg_data')->add($pdata);
             if($lastid)
             {
@@ -329,10 +333,12 @@ class PlaneController extends AdminbaseController
             $post = I('post.');
             $post['adminid'] = session('ADMIN_ID');
             $post['create_time'] = time();
+            if(!isset($post['file_name'])||empty($post['file_name'])){
+                $post['file_name']='网络文件';
+                $post['file_url']=str_replace('./data/upload/','',$post['file_url']);
+            }
             $result = $this->upload_data_model->save_file_info($post);
             if ($result) {
-               
-
                 //更变当前项目的具体进度
                 if ($post['type'] == 4) {                    
 					 //更变当前项目进行的阶段
@@ -429,8 +435,8 @@ class PlaneController extends AdminbaseController
 	public function downloadmessage()
 	{
 		$id=I('id','','intval');
-		$info =M('uploadgg_data')->where("id='$id'")->find();
-        $url_file = SITE_PATH . '/' . $info['urldata'];
+		//$info =M('uploadgg_data')->where("id='$id'")->find();
+        $url_file = 'E:\phpStudy\WWW\situojianzhu//./data/upload/admin/20180914/5b9b212b9c47a.pdf';
         if (file_exists($url_file))
         {
             header('Content-type: application/unknown');

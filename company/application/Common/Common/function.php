@@ -174,6 +174,7 @@ function sp_password_old($pw){
  * @return boolean 密码相同，返回true
  */
 function sp_compare_password($password,$password_in_db){
+
     if(strpos($password_in_db, "###")===0){
         return sp_password($password)==$password_in_db;
     }else{

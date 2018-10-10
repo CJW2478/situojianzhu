@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fdcc5cae-124e-492c-ba05-8ac677157e67" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/a901.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Cache/Admin/0749a13445f35e3337566e8b9fe382b2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Cache/Admin/14f39110225aa98f9efb6f2af8c5253a.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Cache/Admin/1c7ea420ab36cd51f570cf923c03ce6c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Cache/Admin/2f6a51937e7dc9c73a461dfc4a181722.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Cache/Admin/3ea6880cc88d5555a8fca6ead4f3debe.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Cache/Admin/518bbe82a009fa647d90cbb000f62018.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Cache/Admin/5b2f18b207b5051f655a83ac9df81bae.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Cache/Admin/7c1665a3cffc57c386753bdd8191d4d5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Cache/Admin/90464e99bab0ead56c146f9c2c6aad94.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Cache/Admin/92f738679a8b52d9d9d6545eeacc3b7f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Cache/Admin/958ac3b68ab2a0c288a33c12d4ad6953.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Cache/Admin/9bb75fad11f73ab38a1cf6a5f46049ce.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Cache/Admin/a556e599c56d275b2acd7ab8c10b4a42.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Cache/Admin/c580e5f82b13f0b1b08c5497f199eb5c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Cache/Admin/d1cc3d292d6923f749b80826a174d65e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Cache/Admin/f4aa9e4c459e9a98f2ecdbbde4a3db9c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Cache/Admin/fd6b6d7afdcfd2c874fa6e15c4ca7850.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Cache/Asset/41dec0d39624df0564bf3c7d7c80e22e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Data/Cmenu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Data/cmf_system_options_upload_setting.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Logs/Admin/18_08_15.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Logs/Admin/18_08_16.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Logs/Admin/18_08_17.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Logs/Admin/18_08_20.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Logs/Admin/18_08_21.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Logs/Admin/18_08_22.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Logs/Admin/18_08_23.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Logs/Admin/18_08_24.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Logs/Admin/18_08_27.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Logs/Admin/18_08_28.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/runtime/Temp/4e819c837d54a6ed09abc77a8560a66f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180408/5ac97d8ddb3d0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180408/5ac9cb8a46500.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180408/5ac9cbd879d38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180408/5ac9cc2c71480.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180408/5ac9cec440740.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180409/5acb1d7fee480.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180410/5acc59773555c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b15ffc1603d8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b16006ea9f88.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b1600a1a8c00.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b16012c0f6e0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b16015172cb8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b1605f629108.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b1606eea97b8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b16081316ff8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b1608a445df8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b16215258610.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b162152704e0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b1622b50c738.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b162336c44a0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b162336dfa20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b16237c90c68.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b1623df74f18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b1623df8cde8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b1624acc38e8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b1624acdafe8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b162520ea218.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b1625210e290.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b16256d67070.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b16256d7e388.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b1625a5a8f20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b1625a5beeb0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b1625a5ce4c8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b1625dcc0a08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b1625dcd13a8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b1625dce5fb0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b16261b182b8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b16261b2f1e8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b16264e7e770.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b16264e94ae8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b16264ea44e8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b16268a89350.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b16268a9e340.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b16268aaece0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b1626c2a6428.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b162e580f230.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b162e5e2c6f0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b162e5e3cca8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b1630470dac0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180605/5b1630471f400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180705/5b3dbe8a3efd0.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180705/5b3dbfd2cf850.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180705/5b3dbff64f1a0.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180705/5b3dc5fa2c308.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180705/5b3dc6466a338.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b42c0bc594a7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b42c11a241f0.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b42c124cd742.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b42c221360a8.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b42c51cb8bcf.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b42c56597c40.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b42cafcbcb51.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b42cb49b6e11.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b42cb7e09d4d.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b42d4c874a8c.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b42db9ba3e03.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b42dc57b18e3.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b432d3cb5bb3.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b432f1557345.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b432f9304e8f.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b43303a1cf34.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b433069af94d.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b4330d650348.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b4330f5b30b1.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b433196aea5a.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b4331f79c018.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b43322642a68.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b4332c9e1960.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b4332d4dcf6f.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b43334250140.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b43334b8aea8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b4333cedb727.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b43348a1ba8f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b4334dd2486e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b43351b364d2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b433523ba044.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b4335debf680.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b433689be2f8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b4336ba3efd0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b4336e84a768.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b4337f401388.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/admin/20180709/5b43384ed90a8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-09/5acb2a0bbba72.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-09/5acb2ea0bdc22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-09/5acb2f97b0d2e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-09/5acb3055058a4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-09/5acb30654f5d9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-09/5acb30d4a8c75.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-09/5acb30df5d284.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-10/5acc30486042b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-10/5acc4deff0f1b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-10/5acc4e49dcc15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-10/5acc4eaf84f19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-10/5acc4eec24731.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-10/5acc506092cd0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-10/5acc5081433b0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-10/5acc5085a9f0f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-10/5acc5094bfdd5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-10/5acc509de9f84.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-10/5acc50d9eb06b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-10/5acc50e15d61d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-10/5acc50e89db22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-10/5acc51b804d5b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-10/5acc57cba51d2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/2018-04-10/5acc642dc0499.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180408/5ac9b68789738.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180408/5ac9b9f947c70.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180408/5ac9baae42680.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180408/5ac9bc70b3330.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180408/5ac9bcea900b0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180408/5ac9bd04182b8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180408/5ac9bd28dd310.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180408/5ac9dfe2445c0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180408/5ac9e06b1e078.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc099689661.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc0a52ae62d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc0f330a514.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc12e7cd950.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc5f10b868f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc5fb4c38b7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc623bddcf7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc62b1c0367.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc6311bb16a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc6392f0fc0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc694b9ef61.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc69bc296d4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc6a4d5b713.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc6aad9d50a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc6b708bd3a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc6c146a39c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc6c9d2fdbc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc6d34988ef.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc6d8f8fec1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc6e0f5c3eb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc6e41a2c32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc6eb7cd11a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc6f8c3289b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc70017e539.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc706315b66.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc70b042315.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc7102b2401.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc714f8e91b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc71cac5eb2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc7243aa403.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/portal/20180410/5acc72b41fa01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180408/5ac9dfd9a5c58.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180408/5ac9e04ee82d8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc09e0235ec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc0a6c89961.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc1312a290d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc22f7070f8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc5f045de0d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc5fa788239.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc624362cdf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc62c264610.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc631b337cf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc633ec1c7a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc639a30279.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc695578a35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc69d4bf084.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc6a452002e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc6aa36b477.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc6b66db4db.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc6c0c6dad3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc6c94994d8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc6d29e7d3e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc6d84c6348.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc6de7d730d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc6dff7fca5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc6e86128fd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc6e9b30a02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc6f827a36b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc6ffa4b5b4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc70488f71a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc705433d49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc70a1ac104.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc70fc3df2c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc714521467.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc71c462cef.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc723a48da1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180410/5acc72a4f12d6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/company/data/upload/ueditor/20180605/5b1626d411170.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/runtime/Cache/Portal/5302924f834921f26899a472e8798141.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/runtime/Data/_fields/situojianzhu.xly_lcarticles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/runtime/Data/_fields/situojianzhu.xly_options.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/runtime/Data/_fields/situojianzhu.xly_plugins.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/runtime/common~runtime.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180408/5ac97d8ddb3d0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180408/5ac9cb8a46500.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180408/5ac9cbd879d38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180408/5ac9cc2c71480.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180408/5ac9cec440740.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180409/5acb1d7fee480.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180410/5acc59773555c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b15ffc1603d8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b16006ea9f88.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b1600a1a8c00.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b16012c0f6e0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b16015172cb8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b1605f629108.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b1606eea97b8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b16081316ff8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b1608a445df8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b16215258610.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b162152704e0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b1622b50c738.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b162336c44a0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b162336dfa20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b16237c90c68.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b1623df74f18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b1623df8cde8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b1624acc38e8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b1624acdafe8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b162520ea218.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b1625210e290.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b16256d67070.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b16256d7e388.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b1625a5a8f20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b1625a5beeb0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b1625a5ce4c8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b1625dcc0a08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b1625dcd13a8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b1625dce5fb0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b16261b182b8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b16261b2f1e8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b16264e7e770.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b16264e94ae8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b16264ea44e8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b16268a89350.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b16268a9e340.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b16268aaece0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b1626c2a6428.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b162e580f230.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b162e5e2c6f0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b162e5e3cca8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b1630470dac0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180605/5b1630471f400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180628/5b34aa2469f50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b358b898b678.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b358b9d94700.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b358becca648.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b358cab55b18.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b359b57ee868.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b359bfcd5de0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b35a57da2d78.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b35a5d01f018.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b35a6f5c5828.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b35a737e5bc8.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b35ad3b2ab98.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b35ad4b50cf8.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b35ca4399cf0.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b35cc598c618.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b35cec02c308.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b35cf6021ef8.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b35cfc5dcf28.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b35cff594ae8.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b35fbc5aaf1c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b35fd2ead958.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b35fdb501b58.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b35ff303748b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180629/5b3602ff9bbf3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180702/5b39a45fa1608.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180702/5b39bf883f3b8.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180702/5b39c3fbce4c8.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180702/5b39c88699138.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180702/5b39d5ba01b58.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180702/5b39d5c2caa30.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180702/5b39d5cd36ee8.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180702/5b39d5d7ac1e8.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180702/5b39d5e52cad8.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180702/5b39d5ef3bd08.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180702/5b39d5f848058.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180702/5b39ede2b13f0.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180702/5b39ee0fc6f98.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180702/5b39eed2efbf0.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180702/5b39eef299cf0.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180702/5b39ef46aae60.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180702/5b39f1418c230.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180702/5b39f1522de60.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180702/5b39f9ad80a98.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180702/5b39f9f30abe0.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180703/5b3ac70e1e848.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180703/5b3ac85d595b0.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180703/5b3ac87b785c8.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180703/5b3ac8b871098.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180703/5b3ac900f26e8.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180703/5b3ad3f2f2300.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180703/5b3ad47d71098.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180703/5b3b1573dbf88.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180703/5b3b1594785c8.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180703/5b3b1862b46b8.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180703/5b3b228dbb800.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180703/5b3b229e99138.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180703/5b3b27e1e9a48.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180703/5b3b27edac5d0.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180703/5b3b2b7f07148.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180703/5b3b2b88850e8.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180703/5b3b32e5b2778.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180703/5b3b32f1399e0.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180705/5b3dcb9f6c660.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180705/5b3dcbb51dc90.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180705/5b3dccf2ec158.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180705/5b3dd1a8c11d8.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180705/5b3dd1f620b70.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180706/5b3f143c9f6c8.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/admin/20180709/5b43298655f00.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-09/5acb2a0bbba72.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-09/5acb2ea0bdc22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-09/5acb2f97b0d2e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-09/5acb3055058a4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-09/5acb30654f5d9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-09/5acb30d4a8c75.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-09/5acb30df5d284.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-10/5acc30486042b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-10/5acc4deff0f1b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-10/5acc4e49dcc15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-10/5acc4eaf84f19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-10/5acc4eec24731.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-10/5acc506092cd0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-10/5acc5081433b0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-10/5acc5085a9f0f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-10/5acc5094bfdd5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-10/5acc509de9f84.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-10/5acc50d9eb06b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-10/5acc50e15d61d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-10/5acc50e89db22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-10/5acc51b804d5b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-10/5acc57cba51d2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/2018-04-10/5acc642dc0499.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180408/5ac9b68789738.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180408/5ac9b9f947c70.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180408/5ac9baae42680.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180408/5ac9bc70b3330.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180408/5ac9bcea900b0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180408/5ac9bd04182b8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180408/5ac9bd28dd310.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180408/5ac9dfe2445c0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180408/5ac9e06b1e078.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc099689661.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc0a52ae62d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc0f330a514.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc12e7cd950.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc5f10b868f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc5fb4c38b7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc623bddcf7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc62b1c0367.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc6311bb16a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc6392f0fc0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc694b9ef61.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc69bc296d4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc6a4d5b713.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc6aad9d50a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc6b708bd3a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc6c146a39c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc6c9d2fdbc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc6d34988ef.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc6d8f8fec1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc6e0f5c3eb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc6e41a2c32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc6eb7cd11a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc6f8c3289b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc70017e539.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc706315b66.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc70b042315.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc7102b2401.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc714f8e91b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc71cac5eb2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc7243aa403.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/portal/20180410/5acc72b41fa01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180408/5ac9dfd9a5c58.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180408/5ac9e04ee82d8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc09e0235ec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc0a6c89961.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc1312a290d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc22f7070f8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc5f045de0d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc5fa788239.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc624362cdf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc62c264610.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc631b337cf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc633ec1c7a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc639a30279.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc695578a35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc69d4bf084.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc6a452002e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc6aa36b477.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc6b66db4db.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc6c0c6dad3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc6c94994d8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc6d29e7d3e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc6d84c6348.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc6de7d730d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc6dff7fca5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc6e86128fd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc6e9b30a02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc6f827a36b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc6ffa4b5b4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc70488f71a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc705433d49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc70a1ac104.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc70fc3df2c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc714521467.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc71c462cef.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc723a48da1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180410/5acc72a4f12d6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180605/5b1626d411170.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180627/5b330a94e1709.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180627/5b330b34d9df1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/upload/ueditor/20180709/5b42d7b2101d0.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a99911.txt" afterPath="$PROJECT_DIR$/a99911.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Construction/bzysglist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Construction/bzysglist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Construction/messagefile.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Construction/messagefile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Construction/numberone.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Construction/numberone.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Construction/zyinfolist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Construction/zyinfolist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Effect/communication.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Effect/communication.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Effect/effect_plan.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Effect/effect_plan.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Effect/project_style.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Effect/project_style.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Effect/scheme.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Effect/scheme.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Electrical/bzysglist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Electrical/bzysglist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Electrical/index.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Electrical/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Electrical/nbmessagelist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Electrical/nbmessagelist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Electrical/zyinfolist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Electrical/zyinfolist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Equipment/bzysglist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Equipment/bzysglist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Equipment/index.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Equipment/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Equipment/nbmessagelist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Equipment/nbmessagelist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Equipment/zyinfolist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Equipment/zyinfolist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Garden/bzysglist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Garden/bzysglist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Garden/index.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Garden/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Garden/nbmessagelist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Garden/nbmessagelist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Garden/zyinfolist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Garden/zyinfolist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/bzysglist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/bzysglist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/index.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/indexlist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/indexlist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/nbmessagelist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/nbmessagelist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/piccaselist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/piccaselist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/xgcaselist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/xgcaselist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/zyinfolist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/zyinfolist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Plane/communication.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Plane/communication.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Plane/design.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Plane/design.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Plane/scheme.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Plane/scheme.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Structural/bzysglist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Structural/bzysglist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Structural/index.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Structural/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Structural/nbmessagelist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Structural/nbmessagelist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Structural/zyinfolist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Structural/zyinfolist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Watersupply/bzysglist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Watersupply/bzysglist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Watersupply/index.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Watersupply/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Watersupply/nbmessagelist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Watersupply/nbmessagelist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Watersupply/zyinfolist.html" afterPath="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Watersupply/zyinfolist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Controller/ConstructionController.class.php" afterPath="$PROJECT_DIR$/application/Admin/Controller/ConstructionController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Controller/EffectController.class.php" afterPath="$PROJECT_DIR$/application/Admin/Controller/EffectController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Controller/PlaneController.class.php" afterPath="$PROJECT_DIR$/application/Admin/Controller/PlaneController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Controller/StructuralController.class.php" afterPath="$PROJECT_DIR$/application/Admin/Controller/StructuralController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company/application/Common/Common/function.php" afterPath="$PROJECT_DIR$/company/application/Common/Common/function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company/index.php" afterPath="$PROJECT_DIR$/company/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/conf/db.php" afterPath="$PROJECT_DIR$/data/conf/db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web.config" afterPath="$PROJECT_DIR$/web.config" />
+    </list>
+    <ignored path="situojianzhu.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="situojianzhu" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/company/index.php" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/web.config" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/company/application/Common/Common/function.php" />
+        <option value="$PROJECT_DIR$/application/Common/Common/function.php" />
+        <option value="$PROJECT_DIR$/application/Admin/Controller/PublicController.class.php" />
+        <option value="$PROJECT_DIR$/data/conf/db.php" />
+        <option value="$PROJECT_DIR$/application/Admin/Controller/PlaneController.class.php" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Plane/design.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Plane/scheme.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Effect/communication.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Effect/project_style.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Effect/effect_plan.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Effect/scheme.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Plane/communication.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Construction/messagefile.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Construction/numberone.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Construction/zyinfolist.html" />
+        <option value="$PROJECT_DIR$/application/Admin/Controller/ConstructionController.class.php" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Construction/bzysglist.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Structural/index.html" />
+        <option value="$PROJECT_DIR$/application/Admin/Controller/EffectController.class.php" />
+        <option value="$PROJECT_DIR$/application/Admin/Controller/StructuralController.class.php" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Structural/zyinfolist.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Structural/bzysglist.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Structural/nbmessagelist.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Equipment/index.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Equipment/zyinfolist.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Equipment/bzysglist.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Equipment/nbmessagelist.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Watersupply/index.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Watersupply/zyinfolist.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Watersupply/bzysglist.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Watersupply/nbmessagelist.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Electrical/index.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Electrical/zyinfolist.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Electrical/bzysglist.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Electrical/nbmessagelist.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Garden/index.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Garden/zyinfolist.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Garden/nbmessagelist.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/index.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/piccaselist.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/xgcaselist.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/indexlist.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/zyinfolist.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Garden/bzysglist.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/bzysglist.html" />
+        <option value="$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/nbmessagelist.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="situojianzhu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="C:\AppCan\AppCanStudioPersonalV3.2\HDK\emulator\mas\node.exe" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/situojianzhu/admin/themes/simplebootx/Admin/Watersupply/index.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdcc5cae-124e-492c-ba05-8ac677157e67" name="Default" comment="" />
+      <created>1536200524839</created>
+      <option name="number" value="Default" />
+      <updated>1536200524839</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39915523" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/PublicController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47607934">
+          <caret line="65" column="68" selection-start-line="65" selection-start-column="68" selection-end-line="65" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Common/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3325554">
+          <caret line="199" column="56" selection-start-line="199" selection-start-column="56" selection-end-line="199" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/conf/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13559322">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Common/Model/UploadDataModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4881356">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Effect/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.0">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Effect/communication.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.47541">
+          <caret line="97" column="71" selection-start-line="97" selection-start-column="71" selection-end-line="97" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Effect/project_style.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5737705">
+          <caret line="100" column="28" selection-start-line="100" selection-start-column="28" selection-end-line="104" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Effect/effect_plan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.655738">
+          <caret line="163" column="72" selection-start-line="163" selection-start-column="72" selection-end-line="163" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Effect/scheme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.655738">
+          <caret line="112" column="103" selection-start-line="112" selection-start-column="103" selection-end-line="112" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Construction/zyinfolist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.819672">
+          <caret line="115" column="83" selection-start-line="115" selection-start-column="83" selection-end-line="115" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/PlaneController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2440678">
+          <caret line="304" column="11" selection-start-line="304" selection-start-column="11" selection-end-line="307" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Construction/doinglist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="200" column="13" selection-start-line="200" selection-start-column="13" selection-end-line="200" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Plane/communication.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5454545">
+          <caret line="101" column="24" selection-start-line="101" selection-start-column="24" selection-end-line="105" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/EffectController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2983051">
+          <caret line="606" column="12" selection-start-line="606" selection-start-column="12" selection-end-line="609" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/StructuralController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64410734">
+          <caret line="350" column="85" selection-start-line="350" selection-start-column="85" selection-end-line="350" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/ConstructionController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4338983">
+          <caret line="736" column="54" selection-start-line="736" selection-start-column="54" selection-end-line="736" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Structural/bzysglist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64410734">
+          <caret line="107" column="40" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Plane/scheme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6022599">
+          <caret line="115" column="33" selection-start-line="111" selection-start-column="28" selection-end-line="115" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Structural/doinglist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.939394">
+          <caret line="198" column="13" selection-start-line="198" selection-start-column="13" selection-end-line="198" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Structural/allzylist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0644069">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Construction/bzysglist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56271183">
+          <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="113" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Construction/messagefile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4824859">
+          <caret line="106" column="40" selection-start-line="106" selection-start-column="40" selection-end-line="106" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Construction/numberone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27118644">
+          <caret line="204" column="28" selection-start-line="204" selection-start-column="28" selection-end-line="208" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Structural/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49491525">
+          <caret line="101" column="28" selection-start-line="101" selection-start-column="28" selection-end-line="105" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Watersupply/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44860944">
+          <caret line="241" column="67" selection-start-line="241" selection-start-column="67" selection-end-line="241" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Structural/zyinfolist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5062147">
+          <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="114" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Watersupply/zyinfolist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.147541">
+          <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="114" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Watersupply/bzysglist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.803279">
+          <caret line="77" column="51" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Structural/nbmessagelist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7118644">
+          <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="98" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Watersupply/nbmessagelist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56009334">
+          <caret line="110" column="15" selection-start-line="110" selection-start-column="15" selection-end-line="110" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Electrical/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7001167">
+          <caret line="139" column="139" selection-start-line="139" selection-start-column="139" selection-end-line="139" selection-end-column="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Electrical/zyinfolist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6161027">
+          <caret line="109" column="56" selection-start-line="109" selection-start-column="56" selection-end-line="109" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Electrical/bzysglist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42007002">
+          <caret line="81" column="56" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Electrical/nbmessagelist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38856477">
+          <caret line="97" column="145" selection-start-line="97" selection-start-column="145" selection-end-line="97" selection-end-column="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Equipment/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48135594">
+          <caret line="143" column="33" selection-start-line="139" selection-start-column="28" selection-end-line="143" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Equipment/zyinfolist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1728814">
+          <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="114" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="706" column="9" selection-start-line="706" selection-start-column="9" selection-end-line="706" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Equipment/bzysglist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.636364">
+          <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Equipment/nbmessagelist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37062147">
+          <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="98" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6885247">
+          <caret line="89" column="77" selection-start-line="89" selection-start-column="77" selection-end-line="89" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/piccaselist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.9016395">
+          <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="94" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/xgcaselist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.442623">
+          <caret line="93" column="134" selection-start-line="93" selection-start-column="134" selection-end-line="93" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Plane/design.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38079095">
+          <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="107" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Garden/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6700565">
+          <caret line="136" column="32" selection-start-line="136" selection-start-column="32" selection-end-line="140" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/indexlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.147541">
+          <caret line="93" column="135" selection-start-line="93" selection-start-column="135" selection-end-line="93" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Garden/zyinfolist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32542372">
+          <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="114" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/zyinfolist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44807467">
+          <caret line="100" column="136" selection-start-line="100" selection-start-column="136" selection-end-line="100" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Garden/bzysglist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.909091">
+          <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="109" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Garden/nbmessagelist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.272727">
+          <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="98" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/nbmessagelist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67211205">
+          <caret line="105" column="20" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/themes/simplebootx/Admin/Items/bzysglist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.252042">
+          <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

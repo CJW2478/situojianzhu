@@ -94,8 +94,13 @@
 						<td style="text-align: center;">{$val.filename}</td>
 						<td style="text-align: center;">{$val.user_name}</td>
 						<td style="text-align: center;"><if condition="$val['status2'] eq 0"><span style="color:red">未处理</span></if><if condition="$val['status2'] eq 1"><span>审核通过</span></if><if condition="$val['status2'] eq 2"><span>审核未通过</span></if></td>
-						<td style="text-align: center;">						
-						<a href="{:U('Effect/downloadmessage',array('id'=>$val['id']))}" class="btn" style="background:#1abc9c">下载</a>
+						<td style="text-align: center;">
+							<if condition="$val['filename'] eq '网络文件'">
+								<a href="{$val.urldata}" class="btn" style="background:#1abc9c">下载</a>
+								<else />
+								<a href="{:U('Effect/downloadmessage',array('id'=>$val['id']))}" class="btn" style="background:#1abc9c">下载</a>
+							</if>
+
 						<if condition="$val['message'] neq '' || $val['mfilename'] neq ''">
 						<a href="javascript:;" onclick="show_div('{$val.message}','{$val.mfilename}','{$val.id}')" class="btn" style="background:#1abc9c">查看反馈</a>
 						</if>

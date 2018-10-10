@@ -634,6 +634,10 @@ class ConstructionController extends AdminbaseController {
 
 			$pdata['createtime'] =time();
 			$pdata['role_name'] ='建筑专业';
+			if(!isset($pdata['filename'])||empty($pdata['filename'])){
+				$pdata['filename']='网络文件';
+				$pdata['urldata']=str_replace('./data/upload/','',$pdata['urldata']);
+			}
 			$lastid=M('uploadpic_data')->add($pdata);
 			if($lastid)
 			{
@@ -671,6 +675,10 @@ class ConstructionController extends AdminbaseController {
 			$pdata['type']=1;  // 施工图阶段
 			$pdata['atype']=2;  // 乙方上传
 			$pdata['createtime'] =time();
+			if(!isset($pdata['filename'])||empty($pdata['filename'])){
+				$pdata['filename']='网络文件';
+				$pdata['urldata']=str_replace('./data/upload/','',$pdata['urldata']);
+			}
 			$lastid=M('uploadgg_data')->add($pdata);
 			if($lastid)
 			{
@@ -698,6 +706,10 @@ class ConstructionController extends AdminbaseController {
 			$pdata =I('post.');
 			$pdata['adminid'] =session('ADMIN_ID');
 			$pdata['createtime'] =time();
+			if(!isset($pdata['filename'])||empty($pdata['filename'])){
+				$pdata['filename']='网络文件';
+				$pdata['urldata']=str_replace('./data/upload/','',$pdata['urldata']);
+			}
 			$lastid=M('uploadzy_data')->add($pdata);
 			if($lastid)
 			{
@@ -718,6 +730,10 @@ class ConstructionController extends AdminbaseController {
 			$pdata =I('post.');
 			$pdata['adminid'] =session('ADMIN_ID');
 			$pdata['createtime'] =time();
+			if(!isset($pdata['filename'])||empty($pdata['filename'])){
+				$pdata['filename']='网络文件';
+				$pdata['urldata']=str_replace('./data/upload/','',$pdata['urldata']);
+			}
 			$lastid=M('uploadzysg_data')->add($pdata);
 			if($lastid)
 			{

@@ -346,6 +346,10 @@ class StructuralController extends AdminbaseController {
 			$pdata =I('post.');
 			$pdata['adminid'] =session('ADMIN_ID');
 			$pdata['createtime'] =time();
+			if(!isset($pdata['filename'])||empty($pdata['filename'])){
+				$pdata['filename']='网络文件';
+				$pdata['urldata']=str_replace('./data/upload/','',$pdata['urldata']);
+			}
 			$lastid=M('uploadzy_data')->add($pdata);
 			if($lastid)
 			{

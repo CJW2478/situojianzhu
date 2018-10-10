@@ -99,7 +99,12 @@
 						<td style="text-align: center;">{$val.filename}</td>
 						<td style="text-align: center;">{$val.user_name}</td>
 						<td style="text-align: center;">
-							<a href="{:U('Equipment/download',array('id'=>$val['id']))}" class="btn" style="background:#1abc9c">下载</a>
+							<if condition="$val['filename'] eq '网络文件'">
+								<a href="{$val.urldata}" class="btn" style="background:#1abc9c">下载</a>
+								<else />
+								<a href="{:U('Equipment/download',array('id'=>$val['id']))}" class="btn" style="background:#1abc9c">下载</a>
+							</if>
+
 							<if condition="$val['isdo'] eq 0">
 							<a href="javascript:;" onclick="show_div('{$info.id}','{$val.id}')" class="btn" style="background:#1abc9c">意见反馈</a>
 							<else/>
@@ -132,7 +137,11 @@
 						<td style="text-align: center;">{$val.filename}</td>
 						<td style="text-align: center;">{$val.user_name}</td>
 						<td style="text-align: center;">
-							<a href="{:U('Equipment/download',array('id'=>$val['id']))}" class="btn" style="background:#1abc9c">下载</a>
+							<if condition="$val['filename'] eq '网络文件'">
+								<a href="{$val.urldata}" class="btn" style="background:#1abc9c">下载</a>
+								<else />
+								<a href="{:U('Equipment/download',array('id'=>$val['id']))}" class="btn" style="background:#1abc9c">下载</a>
+							</if>
 						</td>
 					</tr>					
 					</if>	

@@ -18,9 +18,10 @@ if (ini_get('magic_quotes_gpc')) {
 	$_POST = stripslashesRecursive($_POST);
 }
 //开启调试模式
-define("APP_DEBUG", false);
+define("APP_DEBUG", true);
 //网站当前路径
 define('SITE_PATH', dirname(__FILE__)."/");
+
 //项目路径，不可更改
 define('APP_PATH', SITE_PATH . 'application/');
 //项目相对路径，不可更改

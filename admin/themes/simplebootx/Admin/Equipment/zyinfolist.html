@@ -107,7 +107,14 @@
 						<td style="text-align: center;">{$val.createtime|date='Y-m-d H:i:s',###}</td>						
 						<td style="text-align: center;">{$val.filename}</td>
 						<td style="text-align: center;">{$val.user_name}</td>						
-						<td style="text-align: center;"><a href="{:U('Equipment/downloadzy',array('id'=>$val['id']))}" class="btn" style="background:#1abc9c">下载</a></td>
+						<td style="text-align: center;">
+							<if condition="$val['filename'] eq '网络文件'">
+								<a href="{$val.urldata}" class="btn" style="background:#1abc9c">下载</a>
+								<else />
+								<a href="{:U('Equipment/downloadzy',array('id'=>$val['id']))}" class="btn" style="background:#1abc9c">下载</a>
+							</if>
+
+						</td>
 					</tr>					
 					</volist>
 					<if condition="count($files) eq 0">

@@ -2,7 +2,7 @@
 return array(
     'DB_TYPE' => 'mysql',
     'DB_HOST' => 'localhost',
-    'DB_NAME' => 'situojianzhu',
+    'DB_NAME' => 'stjz',
     'DB_USER' => 'root',
     'DB_PWD' => 'Test0123',
     'DB_PORT' => '3306',

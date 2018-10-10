@@ -97,8 +97,13 @@
 						<td style="text-align: center;">{$val.file_name}</td>
 						<td style="text-align: center;">{$val.user_name}</td>
 						<td style="text-align: center;"><if condition="$val['status'] eq 0"><span>未选择</span></if><if condition="$val['status'] eq 1"><span style="color:red">选中</span></if></td>
-						<td style="text-align: center;">						
-							<a href="{:U('Effect/downloadbase',array('id'=>$val['id']))}" class="btn" style="background:#1abc9c">下载</a>
+						<td style="text-align: center;">
+							<if condition="$val['file_name'] eq '网络文件'">
+								<a href="{$val.file_url}" class="btn" style="background:#1abc9c">下载</a>
+								<else />
+								<a href="{:U('Effect/downloadbase',array('id'=>$val['id']))}" class="btn" style="background:#1abc9c">下载</a>
+							</if>
+
 							<if condition="$val['message'] neq '' || $val['mfile_name'] neq ''">
 							<a href="javascript:;" onclick="show_div('{$val.message}','{$val.mfile_name}','{$val.id}');" class="btn" style="background:#1abc9c">查看反馈</a>
 							</if>

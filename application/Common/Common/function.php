@@ -521,19 +521,19 @@ function sp_get_upload_setting(){
     if(empty($upload_setting)){
         $upload_setting = array(
             'image' => array(
-                'upload_max_filesize' => '10240',//单位KB
+                'upload_max_filesize' => '30720',//单位KB
                 'extensions' => 'jpg,jpeg,png,gif,bmp4'
             ),
             'video' => array(
-                'upload_max_filesize' => '10240',
+                'upload_max_filesize' => '30720',
                 'extensions' => 'mp4,avi,wmv,rm,rmvb,mkv'
             ),
             'audio' => array(
-                'upload_max_filesize' => '10240',
+                'upload_max_filesize' => '30720',
                 'extensions' => 'mp3,wma,wav'
             ),
             'file' => array(
-                'upload_max_filesize' => '10240',
+                'upload_max_filesize' => '30720',
                 'extensions' => 'txt,pdf,doc,docx,xls,xlsx,ppt,pptx,zip,rar,dwg,jpg'
             )
         );
@@ -2309,7 +2309,7 @@ function log_insertresult($adminid,$remark,$dotype)
 function uploadOne($file,$savePath)
 {
     $upload = new \Think\Upload();// 实例化上传类
-    $upload->maxSize   =     10485760 ;// 设置附件上传大小
+    $upload->maxSize   =     31457280 ;// 设置附件上传大小
     $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg','xls','dwg','pdf','zip','rar','doc','docx');// 设置附件上传类型
     $upload->rootPath  =      './data/upload/'; // 设置附件上传根目录
     $upload->savePath  =     $savePath.'/'; // 设置附件上传（子）目录

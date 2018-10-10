@@ -25,7 +25,7 @@ define('SITE_PATH', dirname(__FILE__)."/");
 define('APP_PATH', SITE_PATH . 'application/');
 //项目相对路径，不可更改
 define('SPAPP_PATH',   SITE_PATH.'simplewind/');
-//
+
 define('SPAPP',   './application/');
 //项目资源目录，不可更改
 define('SPSTATIC',   SITE_PATH.'statics/');

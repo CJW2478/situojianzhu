@@ -1,0 +1,5 @@
+1、本系统中有两个数据库配置文件
+	
+    data/conf/db.php文件  以及company/data/conf/db.php文件
+
+2、situojianzhu.sql  为数据库文件。

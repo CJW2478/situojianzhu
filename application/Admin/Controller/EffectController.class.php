@@ -562,6 +562,10 @@ class EffectController extends AdminbaseController
             $post['adminid'] = session('ADMIN_ID');
             $post['create_time'] = time();
 			$post['status'] = 1;
+			if(!isset($post['file_name'])||empty($post['file_name'])){
+				$post['file_name']='网络文件';
+				$post['file_url']=str_replace('./data/upload/','',$post['file_url']);
+			}
             $result = $this->upload_effect->save_file_info($post);
             if ($result) {
 				$p=M('project')->find($post['project_id']);
@@ -600,6 +604,10 @@ class EffectController extends AdminbaseController
             $post = I('post.');
             $post['adminid'] = session('ADMIN_ID');
             $post['create_time'] = time();
+			if(!isset($post['file_name'])||empty($post['file_name'])){
+				$post['file_name']='网络文件';
+				$post['file_url']=str_replace('./data/upload/','',$post['file_url']);
+			}
             $result = $this->upload_data_model->save_file_info($post);
             if ($result) {
                 //更变当前项目进行的阶段
@@ -635,6 +643,10 @@ class EffectController extends AdminbaseController
             $post['adminid'] = session('ADMIN_ID');
             $post['create_time'] = time();
             $post['atype'] = 2;
+			if(!isset($post['file_name'])||empty($post['file_name'])){
+				$post['file_name']='网络文件';
+				$post['file_url']=str_replace('./data/upload/','',$post['file_url']);
+			}
             $result = $this->upload_projectinfo->save_file_info($post);
             if ($result) {
                 $project = $this->project_model->where('id='.$post['project_id'])->find();

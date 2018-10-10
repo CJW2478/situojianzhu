@@ -38,8 +38,8 @@ class AssetController extends AdminbaseController {
             
             $file_extension=sp_get_file_extension($_FILES['file']['name']);
             $upload_max_filesize=$upload_setting['upload_max_filesize'][$file_extension];
-            $upload_max_filesize=empty($upload_max_filesize)?20971520:$upload_max_filesize;//默认2M
-            
+            //$upload_max_filesize=empty($upload_max_filesize)?20971520:$upload_max_filesize;//默认2M
+            $upload_max_filesize=31457280; // 30M
             $app=I('post.app/s','');
             if(!in_array($app, C('MODULE_ALLOW_LIST'))){
                 $app='default';
@@ -108,8 +108,9 @@ class AssetController extends AdminbaseController {
             $app=I('get.app/s','');
             $upload_max_filesize=$upload_setting[$filetype]['upload_max_filesize'];
             $this->assign('extensions',$upload_setting[$filetype]['extensions']);
-            $this->assign('upload_max_filesize',10240);
-            $this->assign('upload_max_filesize_mb',intval(10240/1024));
+			
+            $this->assign('upload_max_filesize', '30MB');
+            $this->assign('upload_max_filesize_mb',intval(31457280/1024));
           
             $this->assign('mime_type',json_encode($mime_type));
             $this->assign('multi',$multi);
@@ -118,48 +119,6 @@ class AssetController extends AdminbaseController {
         }
     }
     
-    public function swfupload() {
-        if (IS_POST) {
-
-            //上传处理类
-            $config = array(
-                'rootPath' => './' . C("UPLOADPATH"),
-                'savePath' => '',
-                'maxSize' => 11048576,
-                'saveName' => array('uniqid', ''),
-                'exts' => array('jpg', 'gif', 'png', 'jpeg', "txt", 'zip'),
-                'autoSub' => true,
-                'subName' => array('date', 'Ym')
-            );
-            $upload = new \Think\Upload($config); // 
-            $info = $upload->upload();
-            //开始上传
-            if ($info) {
-                //上传成功
-                //写入附件数据库信息
-                $first = array_shift($info);
-                
-                error_log(print_r($first, true)); 
-                
-                if (!empty($first['url'])) {
-                    $url = $first['url'];
-                } else {
-                    if ( empty($first['savepath']) ){ 
-                        $url = C("TMPL_PARSE_STRING.__UPLOAD__").$first['savename'];
-                    } else {
-                        $url = C("TMPL_PARSE_STRING.__UPLOAD__").$first['savepath'].$first['savename']; 
-                    }
-                }
-
-                echo "1," . $url . "," . '1,' . $first['name'];
-                exit;
-            } else {
-                //上传失败，返回错误
-                exit("0," . $upload->getError());
-            }
-        } else {
-            $this->display(':swfupload');
-        }
-    }
+    
 
 }
